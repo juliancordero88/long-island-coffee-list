@@ -40,6 +40,7 @@ export function renderCards(shops, onShopClick) {
             <span class="card-name">${shop.name}</span>
             <span class="card-status ${open ? 'open' : 'closed'}">${open ? 'Open' : 'Closed'}</span>
           </div>
+          ${shop._distance != null ? `<div class="card-distance"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg> ${shop._distance.toFixed(1)} miles away</div>` : ''}
           <div class="card-town">${shop.town}, NY${todayHours ? ` · ${todayHours}` : ''}</div>
           <div class="card-amenities">${badges}</div>
           ${shop.knownFor ? `<div class="card-known-for">${shop.knownFor}</div>` : ''}

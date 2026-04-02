@@ -2,6 +2,7 @@
 
 let map;
 let markersLayer;
+let userMarker = null;
 
 const COFFEE_ICON = L.divIcon({
   className: '',
@@ -100,4 +101,40 @@ export function invalidateSize() {
   if (map) {
     setTimeout(() => map.invalidateSize(), 100);
   }
+}
+
+export function showUserLocation(lat, lng) {
+  if (!map) return;
+
+  // Remove existing user marker
+  if (userMarker) {
+    map.removeLayer(userMarker);
+  }
+
+  const userIcon = L.divIcon({
+    className: '',
+    html: `<div style="
+      width: 20px; height: 20px;
+      background: #2563EB;
+      border: 3px solid white;
+      border-radius: 50%;
+      box-shadow: 0 0 0 8px rgba(37, 99, 235, 0.15), 0 2px 8px rgba(0,0,0,0.2);
+      animation: user-pulse 2s ease-in-out infinite;
+    "></div>
+    <style>
+      @keyframes user-pulse {
+        0%, 100% { box-shadow: 0 0 0 8px rgba(37, 99, 235, 0.15), 0 2px 8px rgba(0,0,0,0.2); }
+        50% { box-shadow: 0 0 0 16px rgba(37, 99, 235, 0.08), 0 2px 8px rgba(0,0,0,0.2); }
+      }
+    </style>`,
+    iconSize: [20, 20],
+    iconAnchor: [10, 10]
+  });
+
+  userMarker = L.marker([lat, lng], { icon: userIcon, zIndexOffset: 1000 })
+    .addTo(map)
+    .bindPopup('<div style="font-family: Inter, sans-serif; font-weight: 600; padding: 4px 2px;">📍 You are here</div>');
+
+  // Zoom to user location with nearby shops visible
+  map.flyTo([lat, lng], 12, { duration: 1.2 });
 }
