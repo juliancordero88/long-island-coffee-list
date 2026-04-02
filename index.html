@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Long Island Coffee List</title>
+  <meta name="description" content="Your guide to independent coffee shops on Long Island. No chains, just real coffee.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header-content">
+      <div class="logo">
+        <svg class="logo-icon" viewBox="0 0 32 32" width="36" height="36" fill="none">
+          <path d="M6 8h16v2a10 10 0 01-10 10h-2A6 6 0 016 14V8z" fill="#2563EB"/>
+          <path d="M22 10h2a4 4 0 010 8h-2" stroke="#2563EB" stroke-width="2" fill="none"/>
+          <path d="M8 26h12" stroke="#60A5FA" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="10" cy="5" r="1" fill="#60A5FA" opacity="0.6"/>
+          <circle cx="14" cy="4" r="1" fill="#60A5FA" opacity="0.4"/>
+          <circle cx="18" cy="5" r="1" fill="#60A5FA" opacity="0.6"/>
+        </svg>
+        <div class="logo-text">
+          <h1>Long Island Coffee List</h1>
+          <span class="logo-tagline">No chains. Just real coffee.</span>
+        </div>
+      </div>
+      <button class="filter-toggle" id="filterToggle" aria-label="Toggle filters">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="4" y1="6" x2="20" y2="6"/><line x1="8" y1="12" x2="20" y2="12"/><line x1="12" y1="18" x2="20" y2="18"/>
+          <circle cx="6" cy="6" r="2" fill="currentColor"/><circle cx="10" cy="12" r="2" fill="currentColor"/><circle cx="14" cy="18" r="2" fill="currentColor"/>
+        </svg>
+      </button>
+    </div>
+  </header>
+
+  <div class="filter-bar" id="filterBar">
+    <div class="filter-section">
+      <div class="filter-group">
+        <label class="filter-label">Region</label>
+        <div class="pill-group" id="regionFilter">
+          <button class="pill active" data-value="all">All</button>
+          <button class="pill" data-value="Nassau">Nassau</button>
+          <button class="pill" data-value="Suffolk">Suffolk</button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label">Amenities</label>
+        <div class="pill-group" id="amenityFilter">
+          <button class="pill toggle" data-value="wifi">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 18c.55 0 1 .45 1 1s-.45 1-1 1-1-.45-1-1 .45-1 1-1zm-4.24-2.76a6.003 6.003 0 018.49 0l-1.42 1.42a4.003 4.003 0 00-5.66 0l-1.41-1.42zm-2.83-2.83a9.99 9.99 0 0114.14 0l-1.41 1.41c-3.12-3.12-8.19-3.12-11.32 0l-1.41-1.41z"/></svg>
+            WiFi
+          </button>
+          <button class="pill toggle" data-value="outlets">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M16 9V3H8v6H2v2h6v4l-2 5h2l1-2.5h6L16 20h2l-2-5v-4h6V9h-6zm-2 0h-4V5h4v4z"/></svg>
+            Outlets
+          </button>
+          <button class="pill toggle" data-value="bathroom">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 2a3 3 0 100 6 3 3 0 000-6zm-1 8h2a5 5 0 015 5v1H6v-1a5 5 0 015-5zm-7 8h16v2H4v-2z"/></svg>
+            Bathroom
+          </button>
+          <button class="pill toggle" data-value="food">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M11 9H9V2H7v7H5V2H3v7c0 2.12 1.66 3.84 3.75 3.97V22h2.5v-9.03C11.34 12.84 13 11.12 13 9V2h-2v7zm5-3v8h2.5v8H21V2c-2.76 0-5 2.24-5 4z"/></svg>
+            Food
+          </button>
+        </div>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label">Search</label>
+        <div class="search-wrap">
+          <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#999" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="searchInput" class="search-input" placeholder="Search by name or town...">
+        </div>
+      </div>
+      <div class="filter-group">
+        <button class="pill toggle open-now-pill" id="openNowToggle">
+          <span class="open-dot"></span> Open Now
+        </button>
+      </div>
+    </div>
+    <div class="filter-status" id="filterStatus"></div>
+  </div>
+
+  <div class="view-toggle">
+    <button class="view-btn active" id="mapViewBtn" data-view="map">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M20.5 3l-.16.03L15 5.1 9 3 3.36 4.9c-.21.07-.36.25-.36.48V20.5a.5.5 0 00.5.5l.16-.03L9 18.9l6 2.1 5.64-1.9c.21-.07.36-.25.36-.48V3.5a.5.5 0 00-.5-.5zM15 19l-6-2.11V5l6 2.11V19z"/></svg>
+      Map
+    </button>
+    <button class="view-btn" id="listViewBtn" data-view="list">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+      List
+    </button>
+  </div>
+
+  <main class="main-content">
+    <div class="map-container" id="mapContainer">
+      <div id="map"></div>
+    </div>
+    <div class="list-container hidden" id="listContainer">
+      <div class="shop-list" id="shopList"></div>
+    </div>
+  </main>
+
+  <!-- Detail Modal -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <div class="modal-handle"></div>
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-body" id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
