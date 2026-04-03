@@ -29,7 +29,7 @@ const coffeeShops = [
     vibe: ["upscale", "open late", "chai-focused"],
     knownFor: "Spanish coffee latte, rose latte, Yemeni-style karak chai",
     description: "Elegant two-floor cafe, chai-focused, open late. Upstairs seating recommended.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/g7E2o0UmAcBBtTQumfj92A/o.jpg"
   },
   {
     id: "noir-bakery-great-neck",
@@ -55,7 +55,7 @@ const coffeeShops = [
     vibe: ["small", "cozy"],
     knownFor: "Israeli street food + coffee",
     description: "Petite Israeli bakery/cafe with warm owners.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/as6EF8_6Qd7Km-ys9fviyw/o.jpg"
   },
   {
     id: "bean-and-bean-douglaston",
@@ -81,7 +81,7 @@ const coffeeShops = [
     vibe: ["spacious", "laptop-friendly", "loft-like"],
     knownFor: "On-site roasting, great remote work spot",
     description: "Spacious loft-like space with in-house roasting, popular for laptop work.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/ad2MkOQlKYQoxQvXTonbTQ/o.jpg"
   },
   {
     id: "for-five-manhasset",
@@ -107,7 +107,7 @@ const coffeeShops = [
     vibe: ["modern", "spacious", "laptop-friendly"],
     knownFor: "Quality espresso, matcha lattes",
     description: "Modern, clean, spacious. Good for working or catching up with friends.",
-    photo: null
+    photo: "https://img.restaurantguru.com/c520-Cafe-For-Five-Coffee-food.jpg"
   },
   {
     id: "buttercooky-manhasset",
@@ -133,7 +133,7 @@ const coffeeShops = [
     vibe: ["country bakery", "community hub"],
     knownFor: "Custom cakes, old-school bakery charm",
     description: "Country bakery feel, long-standing local favorite.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/dV18va0emYOkaqwMKaFdpA/o.jpg"
   },
   {
     id: "taste-of-paris-floral-park",
@@ -159,7 +159,7 @@ const coffeeShops = [
     vibe: ["quiet", "unique decor"],
     knownFor: "Coconut banana latte, salted caramel latte, fun oversized cups",
     description: "Quiet local cafe with unique lighting. No photos on walls (owner preference).",
-    photo: null
+    photo: "https://img.restaurantguru.com/w550/h367/r5aa-dessert-Taste-of-Paris-Coffeehouse.jpg"
   },
   {
     id: "vida-coffee-franklin-square",
@@ -185,7 +185,7 @@ const coffeeShops = [
     vibe: ["Latin family-owned", "quiet"],
     knownFor: "Colombian cold brew, dulce de leche frappuccino",
     description: "Latin family-owned, peaceful, with plants and books to browse.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/vwkyv1ag2xFxaZqD3XUBXA/o.jpg"
   },
   {
     id: "ny-caffeine-franklin-square",
@@ -211,7 +211,7 @@ const coffeeShops = [
     vibe: ["unique decor", "outdoor seating", "open late"],
     knownFor: "Canned latte presentation, late hours",
     description: "Great decor, heated outdoor tent, unique drink presentation (canned lattes).",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/ETSc_mtoe1GHBP_OppeOmA/o.jpg"
   },
 
   // ============================================================
@@ -241,7 +241,7 @@ const coffeeShops = [
     vibe: ["small", "cozy", "Korean-owned"],
     knownFor: "Chagaccino, strawberry matcha with fresh fruit, in-house roasting",
     description: "Tiny, cozy Korean-owned cafe that roasts their own beans.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/Hny2t9a0jp0B728QA8Gadw/o.jpg"
   },
   {
     id: "east-rock-garden-city",
@@ -267,7 +267,7 @@ const coffeeShops = [
     vibe: ["cozy", "unique decor", "trendy"],
     knownFor: "Brunch destination, London fog, espresso drinks",
     description: "Warm, colorful, unique decor with a huge local following (viral on Instagram).",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/-LyQ0Tqhjdv9HWIlCJxIxw/o.jpg"
   },
   {
     id: "for-five-garden-city",
@@ -293,7 +293,7 @@ const coffeeShops = [
     vibe: ["modern", "laptop-friendly"],
     knownFor: "Good workspace, house-roasted coffee",
     description: "Open concept, well-lit, popular laptop/work spot.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/3Lkq9Ik6tZh1bIQV85DxmA/o.jpg"
   },
   {
     id: "oak-and-orange-mineola",
@@ -319,7 +319,7 @@ const coffeeShops = [
     vibe: ["trendy", "cozy"],
     knownFor: "Unique menu, beautiful interior, great lunch spot",
     description: "Elevated, curated, relaxing. Near the train station.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/V6SK1LEgtv_YwUD_ielaQg/o.jpg"
   },
   {
     id: "qahwah-house-westbury",
@@ -345,7 +345,7 @@ const coffeeShops = [
     vibe: ["lively", "community hub", "open late"],
     knownFor: "Yemeni coffee imported from Yemen, roasted in-house, late hours",
     description: "Large, lively Yemeni coffee house. Social/community hangout.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/H0fBuMEBn-IjWb5mFqPJxQ/o.jpg"
   },
   {
     id: "ny-caffeine-westbury",
@@ -371,7 +371,7 @@ const coffeeShops = [
     vibe: ["charming", "cozy", "outdoor seating"],
     knownFor: "Canned latte presentation, seasonal specials",
     description: "Beautiful, cozy, with outdoor seating area.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/NFDTrl3TuQtOvcmiO0Rcbg/o.jpg"
   },
   {
     id: "early-bird-east-meadow",
@@ -397,7 +397,7 @@ const coffeeShops = [
     vibe: ["cozy", "laptop-friendly"],
     knownFor: "Best mocha latte on LI (per regulars), great brunch",
     description: "Cozy, welcoming, great for working.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/nqVT2jBcUouK91Ah-eLhcQ/o.jpg"
   },
   {
     id: "grami-caffe-malverne",
@@ -423,7 +423,7 @@ const coffeeShops = [
     vibe: ["Greek/Mediterranean", "family-owned", "cozy"],
     knownFor: "Freddo espresso (hard to find on LI), locally roasted beans",
     description: "Greek/Mediterranean family-owned, warm hospitality, real ceramic cups.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/aXwRFtMoHALg3QgPmlKjlw/o.jpg"
   },
 
   // ============================================================
@@ -453,7 +453,7 @@ const coffeeShops = [
     vibe: ["Brooklyn-inspired", "cozy"],
     knownFor: "Iced salted caramel latte, matcha vanilla rose latte",
     description: "Brooklyn-inspired, cozy, limited seating but popular.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/fR8_ONJPGT0yfMbVvrTP1Q/o.jpg"
   },
   {
     id: "dianes-bakery-roslyn",
@@ -479,7 +479,7 @@ const coffeeShops = [
     vibe: ["charming", "outdoor seating", "trendy"],
     knownFor: "Best quiche on LI, gorgeous patio",
     description: "Charming garden seating, bustling, elevated cafe.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/i9JOfy7fJTm0e13JzctMOg/o.jpg"
   },
   {
     id: "17a-cafe-roslyn-heights",
@@ -505,7 +505,7 @@ const coffeeShops = [
     vibe: ["hidden gem", "family-owned"],
     knownFor: "Off-menu items, incredible personal service, lobster salad",
     description: "Tiny hidden gem, owner-operated by 'Scotty Bagel'. Monday only — check ahead!",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/BAduo1CLbC5i3xnceN1Wtg/o.jpg"
   },
   {
     id: "southdown-glen-cove",
@@ -531,7 +531,7 @@ const coffeeShops = [
     vibe: ["bright", "cozy"],
     knownFor: "House-roasted beans, consistently excellent across all locations",
     description: "Bright, relaxing, warm staff. Local roaster with multiple LI locations.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/r7Z9uKcTHxVZvM7a_OaRDg/o.jpg"
   },
   {
     id: "southdown-oyster-bay",
@@ -557,7 +557,7 @@ const coffeeShops = [
     vibe: ["charming", "beachy"],
     knownFor: "Lavender latte (house-made syrup), olive oil cake",
     description: "Cute, classic, cozy seaside town cafe. Limited seating (worth the wait).",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/Sr7wCYE7WDw9aWfMkje2wA/o.jpg"
   },
   {
     id: "cafe-nicos-glen-cove",
@@ -583,7 +583,7 @@ const coffeeShops = [
     vibe: ["Italian cafe", "cash only"],
     knownFor: "Authentic Italian espresso, boxing glove decor, cash only",
     description: "Old-school Little Italy feel. Cash only!",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/Kkej33qavA25KFD7T44uHA/o.jpg"
   },
   {
     id: "ready-coffee-glen-cove",
@@ -609,7 +609,7 @@ const coffeeShops = [
     vibe: ["drive-thru", "grab-and-go"],
     knownFor: "Sugar-free options (diabetic friendly), fast drive-thru service",
     description: "Drive-thru only, two lanes, fast and friendly.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/0cL6KVPdCry2dk5qef0PVQ/o.jpg"
   },
   {
     id: "sea-cliff-daily-grind",
@@ -635,7 +635,7 @@ const coffeeShops = [
     vibe: ["cozy"],
     knownFor: "Daily vegan specials (ask the counter)",
     description: "Casual cafe with daily vegan specials.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/ZEj5xR_AIEEAPhfnNTaQlA/o.jpg"
   },
   {
     id: "dessertino-sea-cliff",
@@ -661,7 +661,7 @@ const coffeeShops = [
     vibe: ["cozy", "artsy", "laptop-friendly"],
     knownFor: "Pistachio tiramisu, multi-cultural dessert menu",
     description: "Warm, artsy, book-friendly. Great for reading.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/YDh3DCfuyHpbQcI1tLXgXA/o.jpg"
   },
   {
     id: "st-roccos-glen-cove",
@@ -687,7 +687,7 @@ const coffeeShops = [
     vibe: ["Italian cafe"],
     knownFor: "Best Italian bakery on Long Island (per many locals)",
     description: "Legendary Italian bakery, can have long holiday lines.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/qfzUUSQWXbpY5VP_I2gwRw/o.jpg"
   },
 
   // ============================================================
@@ -717,7 +717,7 @@ const coffeeShops = [
     vibe: ["artsy", "beachy"],
     knownFor: "Cherry lemonade, salty sap iced latte, cool vibes",
     description: "Artsy, beachy, great artwork on walls.",
-    photo: null
+    photo: "https://spacecowboycoffee.com/cdn/shop/files/kenyatempbagimage.jpg?v=1700666440"
   },
   {
     id: "long-beach-coffee-tee",
@@ -743,7 +743,7 @@ const coffeeShops = [
     vibe: ["unique decor", "golf simulator", "open late"],
     knownFor: "Golf simulators you can rent, good evening hangout",
     description: "Coffee shop + golf simulator combo!",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/_9bOUkL9PWPRG3iTmOV1fg/o.jpg"
   },
   {
     id: "no-rush-freeport",
@@ -769,7 +769,7 @@ const coffeeShops = [
     vibe: ["cozy", "family-friendly"],
     knownFor: "Biscoff latte, sugar cookie latte, cozy 'no rush' atmosphere",
     description: "Cozy living-room feel, games for kids, books.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/3jYnNSxtjXeyzc5Khh1KJA/o.jpg"
   },
   {
     id: "ready-coffee-freeport",
@@ -795,7 +795,7 @@ const coffeeShops = [
     vibe: ["drive-thru", "grab-and-go"],
     knownFor: "Shakes, customizable drinks, friendly staff",
     description: "Drive-thru, fast service.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/_f4-t-CnMSiu5Pw0dtCdyw/o.jpg"
   },
   {
     id: "rs-beanery-merrick",
@@ -821,7 +821,7 @@ const coffeeShops = [
     vibe: ["cozy"],
     knownFor: "Signature iced lattes, Friday evening hours",
     description: "Comfy, cozy, great atmosphere.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/2MEYvwuC-VbHw3jZD2fsBw/o.jpg"
   },
   {
     id: "hard-bean-merrick",
@@ -847,7 +847,7 @@ const coffeeShops = [
     vibe: ["modern", "unique decor"],
     knownFor: "Cookie butter shaken espresso, tiramisu latte, matcha",
     description: "Crisp, clean, intentional decor, coffee bean scent, gentle music.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/YudHrfS5OqkEMJnrymEzpA/o.jpg"
   },
   {
     id: "coffee-barn-merrick",
@@ -873,7 +873,7 @@ const coffeeShops = [
     vibe: ["drive-thru", "trendy"],
     knownFor: "Pumpkin lattes served in real pumpkins, Instagram/TikTok aesthetic",
     description: "Drive-thru barn, heavily seasonal/themed (TikTok famous).",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/pjooEMDJQAfWMGYqudnJ_w/o.jpg"
   },
   {
     id: "pink-cafe-rockville-centre",
@@ -899,7 +899,7 @@ const coffeeShops = [
     vibe: ["unique decor", "charming", "party-friendly"],
     knownFor: "Oatmilk vanilla matcha latte, tea parties, Bridgerton vibes",
     description: "Pink-themed, cute, great for girls' events/parties.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/RnOThUhY00kE3spUsMT0MA/o.jpg"
   },
   {
     id: "flour-shoppe-rockville-centre",
@@ -925,7 +925,7 @@ const coffeeShops = [
     vibe: ["brunch spot", "outdoor seating"],
     knownFor: "Honey lavender latte, brunch spot",
     description: "Elevated brunch cafe with a nice outdoor area.",
-    photo: null
+    photo: "https://images.squarespace-cdn.com/content/v1/5dca4ac513b480335fc9ec2c/1576009616262-5WSBSSWXC3Z6QLBGDAC3/RVC+Store+2.jpeg"
   },
 
   // ============================================================
@@ -955,7 +955,7 @@ const coffeeShops = [
     vibe: ["cozy", "unique decor"],
     knownFor: "Intentional specialty coffee, latte art, Turkish baklava",
     description: "Warm yellow honeycomb decor, sofas + easy chairs, real dishes (not disposable), next to Heckscher Park.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/_2TSulQ7Zg-W9pbIOh61Hg/o.jpg"
   },
   {
     id: "special-cup-huntington",
@@ -981,7 +981,7 @@ const coffeeShops = [
     vibe: ["artsy", "cozy", "trendy"],
     knownFor: "Exhaustive flavored latte list, great brunch, formerly 'Soul Brew'",
     description: "Artsy, homey, vibey music. Good for working or socializing.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/7ARHxMKoKAze0CsaXCBDxg/o.jpg"
   },
   {
     id: "southdown-huntington",
@@ -1007,7 +1007,7 @@ const coffeeShops = [
     vibe: ["bright", "modern"],
     knownFor: "House-roasted coffee, the egg sandwich",
     description: "Bright, clean, narrow but inviting. House-made syrups.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/IRuEpY5JAz_W5b8RgfQj2w/o.jpg"
   },
   {
     id: "nautilus-huntington-station",
@@ -1033,7 +1033,7 @@ const coffeeShops = [
     vibe: ["artsy", "vegan", "community hub"],
     knownFor: "Vegan coffee house, community events (open mic, run club, markets), in-house roasting",
     description: "Victorian living room meets eclectic art — weird and awesome. Vegan cafe. Lots of outlets.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/mqzBeZhIWzoLlRw2CXaomg/o.jpg"
   },
   {
     id: "brewology-huntington-station",
@@ -1059,7 +1059,7 @@ const coffeeShops = [
     vibe: ["charming", "lively", "grab-and-go"],
     knownFor: "Chagaccino, strawberry matcha, seasonal specials",
     description: "Cute, fun, music a bit loud. More grab-and-go than sit-and-work.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/UKKA_J5o9yxVkFaDKIO26Q/o.jpg"
   },
   {
     id: "cold-spring-harbor-cafe",
@@ -1085,7 +1085,7 @@ const coffeeShops = [
     vibe: ["small", "local", "family-friendly"],
     knownFor: "Cinnamon toast crunch latte, seasonal pumpkin/snowman cups",
     description: "Small, locally owned, kid-friendly, fresh-paint-new feel.",
-    photo: null
+    photo: "https://img.marinas.com/v2/d1b10a89de0da68ae38c2135a7fc988398d1e84a6ccd5d6317369b1b82f4642e.jpg"
   },
   {
     id: "sweetie-pies-cold-spring-harbor",
@@ -1111,7 +1111,7 @@ const coffeeShops = [
     vibe: ["charming", "dog-friendly"],
     knownFor: "Adorable aesthetic, great post-hike stop",
     description: "Quaint, New England charm, dog-friendly garden, indoor + outdoor seating.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/JsR1rEbXv9TlrsEbZx3aFQ/o.jpg"
   },
   {
     id: "gourmet-whaler-cold-spring-harbor",
@@ -1137,7 +1137,7 @@ const coffeeShops = [
     vibe: [],
     knownFor: "Multi-concept (bakery + ice cream + cafe + lunch), Nutella latte",
     description: "Multi-concept: bakery + ice cream + cafe + lunch.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/PFTHfN_ik10FyfSilAQeXA/o.jpg"
   },
   {
     id: "southdown-northport",
@@ -1163,7 +1163,7 @@ const coffeeShops = [
     vibe: ["charming", "local"],
     knownFor: "Consistent Southdown quality, apple crumb",
     description: "Cute, local, Main Street charm.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/IdAaW6DDuYtyAl4yeH3w3g/o.jpg"
   },
   {
     id: "the-barn-east-northport",
@@ -1189,7 +1189,7 @@ const coffeeShops = [
     vibe: ["trendy", "drive-thru"],
     knownFor: "Pumpkin spice latte in a real pumpkin, holiday themed drinks",
     description: "Instagram-famous seasonal drinks, drive-thru concept.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/7n802-j9GCkM_SXZuMXYyA/o.jpg"
   },
   {
     id: "babylon-bean-babylon",
@@ -1215,7 +1215,7 @@ const coffeeShops = [
     vibe: ["artsy", "historic", "cozy"],
     knownFor: "Cold brew display, opens insanely early (4:45am!), art gallery space",
     description: "Art gallery + coffee house, old school architecture, cozy but can feel cramped.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/KW9lA9HWkDMMHjagRELdmA/o.jpg"
   },
   {
     id: "jack-jacks-babylon",
@@ -1241,7 +1241,7 @@ const coffeeShops = [
     vibe: ["artsy", "dog-friendly"],
     knownFor: "Homemade mocha/caramel sauces, local art, all-day egg sandwich",
     description: "Art gallery meets coffee shop, dog-friendly.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/ZDkoVJpjMbWq-YiBYv01Ng/o.jpg"
   },
   {
     id: "sergi-west-babylon",
@@ -1267,7 +1267,7 @@ const coffeeShops = [
     vibe: ["roastery"],
     knownFor: "In-house roasting, great value espresso ($3.35 double espresso!)",
     description: "In-house roasting with great value espresso.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/7Yz0XgwB6Iliy2bW0VKW3A/o.jpg"
   },
   {
     id: "north-babylon-bean",
@@ -1293,7 +1293,7 @@ const coffeeShops = [
     vibe: ["family-owned", "community hub"],
     knownFor: "Vietnamese iced coffee, hazelnut brewed from bean, roasts on-site",
     description: "Friendly owner (Ryan) who knows everyone by name. Brewing visible in back.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/SyqjofeqIOoU4QMd9IR6PA/o.jpg"
   },
   {
     id: "east-end-roasters-north-babylon",
@@ -1319,7 +1319,7 @@ const coffeeShops = [
     vibe: ["roastery"],
     knownFor: "Whole bean roaster, ships nationwide, house blends",
     description: "Whole bean roaster that ships nationwide.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/ij8HrNq09AYxNS0T0ZuOwg/o.jpg"
   },
   {
     id: "so-sveglio-lindenhurst",
@@ -1345,7 +1345,7 @@ const coffeeShops = [
     vibe: ["Italian cafe"],
     knownFor: "Italian espresso bar, gelato catering for events",
     description: "Italian espresso bar with gelato catering for events.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/CbLscThdumRjIGfsexDT1w/o.jpg"
   },
   {
     id: "munis-lindenhurst",
@@ -1371,7 +1371,7 @@ const coffeeShops = [
     vibe: ["Brazilian vibes", "cozy", "trendy", "family-friendly"],
     knownFor: "Great iced coffee, chill atmosphere, live music vibes",
     description: "Brazilian vibes, cozy, trendy, books + toys for kids.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/j2Do6tQkLm07bpOZvUCnVw/o.jpg"
   },
   {
     id: "milano-bean-bay-shore",
@@ -1397,7 +1397,7 @@ const coffeeShops = [
     vibe: ["community hub", "cozy", "open late"],
     knownFor: "Fruity pebble matcha, strawberry cheesecake latte, late hours",
     description: "Community hangout — people off phones, studying or socializing. Comfy sofas.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/2jOG1thf6HI359HNz5KgGA/o.jpg"
   },
 
   // ============================================================
@@ -1427,7 +1427,7 @@ const coffeeShops = [
     vibe: ["rustic", "unique decor", "trendy"],
     knownFor: "Cinnamon bun foam lattes, Irish cream cold brew, Instagram-worthy decor",
     description: "Rustic dark wood, string lights, husband-and-wife owned.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/rPVhwzpI-CeHuxFIQM1m0g/o.jpg"
   },
   {
     id: "dark-horse-sayville",
@@ -1453,7 +1453,7 @@ const coffeeShops = [
     vibe: ["cozy", "wellness"],
     knownFor: "Shaken honey espresso, shroom latte, German tourists rave about it",
     description: "Warm, music + books in background, 7 tables, no rush.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/n1keLK2l_vKmf69G-QyT6w/o.jpg"
   },
   {
     id: "sayville-bean",
@@ -1479,7 +1479,7 @@ const coffeeShops = [
     vibe: ["community hub", "live music"],
     knownFor: "Live music, cold brew production visible on-site, early hours",
     description: "Classic community coffee house.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/jT4zuFpd9uwOLqGmElat7A/o.jpg"
   },
   {
     id: "brownstones-sayville",
@@ -1505,7 +1505,7 @@ const coffeeShops = [
     vibe: ["charming", "brunch spot"],
     knownFor: "Gourmet brunch, themed drinks, mimosas",
     description: "Cute, quaint brunch spot.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/-Nvc150Ik5IuTlapQ55pLw/o.jpg"
   },
   {
     id: "kings-coast-bohemia",
@@ -1531,7 +1531,7 @@ const coffeeShops = [
     vibe: ["roastery"],
     knownFor: "In-house roasting, 4-shot large lattes, Bowbreaker roast, Lifeline espresso",
     description: "Hidden in an industrial park, roastery visible through glass. Serious coffee.",
-    photo: null
+    photo: "https://cdn.shopify.com/s/files/1/2332/1547/files/2E8A1213_1400x.jpg?v=1643574132"
   },
   {
     id: "coho-patchogue",
@@ -1557,7 +1557,7 @@ const coffeeShops = [
     vibe: ["cozy", "laptop-friendly"],
     knownFor: "Creme brulee iced latte, cottage core chai, expanding to new locations",
     description: "Warm, welcoming, good for remote work or reading.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/TCT-bdYrEpv378tOZgHF3w/o.jpg"
   },
   {
     id: "southdown-patchogue",
@@ -1583,7 +1583,7 @@ const coffeeShops = [
     vibe: ["bright", "spacious", "unique decor"],
     knownFor: "Great drip coffee, peaceful afternoon escape",
     description: "Big windows, plants, bright/spacious. Leather sofa + plant vibes.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/eJtHut7Hlg6wXrKGjot50Q/o.jpg"
   },
   {
     id: "toast-patchogue",
@@ -1609,7 +1609,7 @@ const coffeeShops = [
     vibe: ["lively", "brunch spot"],
     knownFor: "Massive brunch menu, pink mimosas, always packed",
     description: "Popular brunch spot, bustling, counter + table seating.",
-    photo: null
+    photo: "https://patch.com/img/cdn20/users/24390794/20220413/040753/styles/patch_image/public/roast-coffee___13160740352.png"
   },
   {
     id: "brewport-bellport",
@@ -1635,7 +1635,7 @@ const coffeeShops = [
     vibe: ["cozy", "laptop-friendly", "quiet"],
     knownFor: "Best remote work spot in Suffolk (fast WiFi, outlets, quiet), sweater weather chai",
     description: "Cozy, great for remote work. Background music at perfect volume. Window nook + couch.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/hbMnUvMpFaZVBiBpCY7xXw/o.jpg"
   },
   {
     id: "bellport-apothecary",
@@ -1661,7 +1661,7 @@ const coffeeShops = [
     vibe: ["upscale", "wellness", "charming"],
     knownFor: "Lavender lemonade tea, organic skincare products + coffee",
     description: "Coffee + boutique + wellness shop, outdoor seating, Bellport Village charm.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/HJiKqRhe2F7Sq96Ztx2UWw/o.jpg"
   },
 
   // ============================================================
@@ -1691,7 +1691,7 @@ const coffeeShops = [
     vibe: ["artsy"],
     knownFor: "Counter Culture coffee, La Marzocco espresso, vintage records",
     description: "Counter Culture coffee with vintage records.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/fkoO29J2381y3Lns1hvcLQ/o.jpg"
   },
   {
     id: "aldos-greenport",
@@ -1717,7 +1717,7 @@ const coffeeShops = [
     vibe: ["waterfront views", "outdoor seating"],
     knownFor: "In-house roasted coffee, biscotti gifts, hot chocolate, 10+ years running",
     description: "Waterfront views, patio overlooking harbor/carousel, ice cream + coffee.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/6YmgeLfGDnNxAKMG7aMdTQ/o.jpg"
   },
   {
     id: "blue-duck-greenport",
@@ -1743,7 +1743,7 @@ const coffeeShops = [
     vibe: ["charming"],
     knownFor: "European-style baking (originally from Southampton since 1999)",
     description: "Cute refurbished house, smells like butter, tables inside + alley seating.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/LGP3Zo36ccFyYGW2pA47WA/o.jpg"
   },
   {
     id: "north-fork-roasting-southold",
@@ -1769,7 +1769,7 @@ const coffeeShops = [
     vibe: ["family-friendly", "event space"],
     knownFor: "In-house roasting, strawberry matcha, best third-wave coffee on North Fork",
     description: "Upstairs rooms including kids' playroom, outdoor space for bands/events.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/PELNeKeXFxQLcJOoQ2jpRw/o.jpg"
   },
   {
     id: "panoramica-peconic",
@@ -1795,7 +1795,7 @@ const coffeeShops = [
     vibe: ["unique decor", "family-owned"],
     knownFor: "Unique design, amazing branding, creative energy",
     description: "Futuristic/retro ('The Jetsons'), fun sound effects in bathroom, owner-operated.",
-    photo: null
+    photo: "https://images.happycow.net/venues/1024/15/23/hcmp152310_1383911.jpeg"
   },
   {
     id: "love-lane-kitchen-mattituck",
@@ -1821,7 +1821,7 @@ const coffeeShops = [
     vibe: ["dog-friendly", "farm-to-table"],
     knownFor: "Homemade chai latte, self-serve coffee refills, farm-to-table vibe",
     description: "Dog-friendly patio, self-serve coffee bar, cozy indoor/outdoor.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/a3n7n1HJ8YLrLv5j9H8cWg/o.jpg"
   },
 
   // ============================================================
@@ -1851,7 +1851,7 @@ const coffeeShops = [
     vibe: ["early bird"],
     knownFor: "Multiple Hamptons locations, opens at 5:15am, strong local loyalty",
     description: "Opens at 5:15am with full breakfast/lunch and strong local loyalty.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/ExK6XYqjvlUVbBvCyc1eOw/o.jpg"
   },
   {
     id: "hampton-coffee-southampton",
@@ -1877,7 +1877,7 @@ const coffeeShops = [
     vibe: ["cozy"],
     knownFor: "Friendly baristas, WiFi, good grab-and-go",
     description: "Friendly baristas, WiFi, good grab-and-go.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/TCB86JFL-4BpvwuxbGNk_g/o.jpg"
   },
   {
     id: "hampton-coffee-montauk",
@@ -1903,7 +1903,7 @@ const coffeeShops = [
     vibe: ["grab-and-go"],
     knownFor: "Cinnamon roll latte",
     description: "Solid grab-and-go in Montauk.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/7XlHVfnGzZQUAHwVFdU-JA/o.jpg"
   },
   {
     id: "golden-pear-southampton",
@@ -1929,7 +1929,7 @@ const coffeeShops = [
     vibe: ["community hub"],
     knownFor: "Decades-old Hamptons staple, pricey but beloved by some",
     description: "Longtime neighborhood institution, community hub.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/0abosS4ZQ3Azyi5uvmC-HQ/o.jpg"
   },
   {
     id: "tutto-caffe-east-hampton",
@@ -1955,7 +1955,7 @@ const coffeeShops = [
     vibe: ["Italian cafe", "outdoor seating", "cocktails"],
     knownFor: "Paloma cocktails, Italian pastries, great patio",
     description: "Italian cafe with beautiful patio, cocktails available.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/klHbhOyHOthrIkArsLtwjw/o.jpg"
   },
   {
     id: "jacks-stir-brew-amagansett",
@@ -1981,7 +1981,7 @@ const coffeeShops = [
     vibe: ["wellness", "grab-and-go"],
     knownFor: "100% organic, triple ristretto shots only, Stella iced drink",
     description: "Grab-and-go focused, minimal seating, organic coffee, picnic tables outside.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/BnMaekHUPxM7Xtv_Puf5VQ/o.jpg"
   },
   {
     id: "sett-coffee-amagansett",
@@ -2007,7 +2007,7 @@ const coffeeShops = [
     vibe: ["small", "community hub"],
     knownFor: "Excellent beans, becoming a daily ritual for locals",
     description: "New, small, neighborhood favorite.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/CdKL_aWo3FggeQtTCmOYxQ/o.jpg"
   },
   {
     id: "ss-corner-shop-springs",
@@ -2033,7 +2033,7 @@ const coffeeShops = [
     vibe: ["Brooklyn transplant feel"],
     knownFor: "Variety coffee, art books, local jewelry, no real seating (bench only)",
     description: "Brooklyn transplant feel (Fort Greene vibes), coffee + general store + vinyl/art books.",
-    photo: null
+    photo: "https://s3-media0.fl.yelpcdn.com/bphoto/u4KmETkPRun7f506J1LiZg/o.jpg"
   }
 ];
 

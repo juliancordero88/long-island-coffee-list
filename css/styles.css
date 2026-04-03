@@ -838,18 +838,21 @@ a {
   padding: 0 24px 36px;
 }
 
-.modal-streetview {
+.modal-photo {
   margin: -0 -24px 16px -24px;
-  border-radius: 0;
   overflow: hidden;
   background: var(--bg);
+  max-height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.modal-streetview iframe {
+.modal-photo img {
   display: block;
-  border: none;
   width: 100%;
-  height: 200px;
+  height: 240px;
+  object-fit: cover;
 }
 
 .modal-status-bar {
