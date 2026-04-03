@@ -97,7 +97,7 @@ export function showModal(shop) {
   const mapsUrl = `https://maps.apple.com/?daddr=${encodeURIComponent(shop.address)}`;
   const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(shop.address)}`;
 
-  const mapEmbedUrl = `https://maps.google.com/maps?q=&layer=c&cbll=${shop.lat},${shop.lng}&cbp=12,0,0,0,0&output=svembed`;
+  const mapEmbedUrl = `https://www.google.com/maps/embed?pb=!4v0!6m6!1m5!2m2!1d${shop.lat}!2d${shop.lng}!4f-0!5f0.7820865974627469`;
 
   body.innerHTML = `
     <div class="modal-streetview">
