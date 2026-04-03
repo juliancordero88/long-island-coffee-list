@@ -97,7 +97,18 @@ export function showModal(shop) {
   const mapsUrl = `https://maps.apple.com/?daddr=${encodeURIComponent(shop.address)}`;
   const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(shop.address)}`;
 
+  const mapEmbedUrl = `https://maps.google.com/maps?q=${shop.lat},${shop.lng}&z=18&t=k&output=embed`;
+
   body.innerHTML = `
+    <div class="modal-streetview">
+      <iframe
+        src="${mapEmbedUrl}"
+        width="100%"
+        height="200"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        allowfullscreen></iframe>
+    </div>
     <div class="modal-status-bar">
       <span class="card-status ${open ? 'open' : 'closed'}" style="font-size:12px">${open ? 'Open Now' : 'Closed'}</span>
     </div>

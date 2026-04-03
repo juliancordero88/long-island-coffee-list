@@ -13,8 +13,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Western Nassau",
     phone: "646-570-2178",
-    lat: 40.7870,
-    lng: -73.7280,
+    lat: 40.805903,
+    lng: -73.734585,
     hours: {
       mon: "8:00 AM - 10:00 PM",
       tue: "8:00 AM - 10:00 PM",
@@ -25,8 +25,8 @@ const coffeeShops = [
       sun: "10:00 AM - 11:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["sweets", "biscoff cake", "chocolate chip cookies", "sticky coffee banana bread"],
-    vibe: ["elegant", "open late", "chai-focused"],
+    food: ["pastries", "cakes", "cookies", "banana bread"],
+    vibe: ["upscale", "open late", "chai-focused"],
     knownFor: "Spanish coffee latte, rose latte, Yemeni-style karak chai",
     description: "Elegant two-floor cafe, chai-focused, open late. Upstairs seating recommended.",
     photo: null
@@ -39,8 +39,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Western Nassau",
     phone: "516-773-0973",
-    lat: 40.7830,
-    lng: -73.7210,
+    lat: 40.781289,
+    lng: -73.734026,
     hours: {
       mon: "7:00 AM - 3:00 PM",
       tue: "7:00 AM - 3:00 PM",
@@ -52,7 +52,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: ["burekas", "shakshuka", "pastries", "breakfast"],
-    vibe: ["petite", "warm"],
+    vibe: ["small", "cozy"],
     knownFor: "Israeli street food + coffee",
     description: "Petite Israeli bakery/cafe with warm owners.",
     photo: null
@@ -91,8 +91,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Western Nassau",
     phone: "516-918-9488",
-    lat: 40.7975,
-    lng: -73.6990,
+    lat: 40.796697,
+    lng: -73.699176,
     hours: {
       mon: "7:00 AM - 7:00 PM",
       tue: "7:00 AM - 7:00 PM",
@@ -103,8 +103,8 @@ const coffeeShops = [
       sun: "7:00 AM - 7:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["eggs benedict on croissants", "Mexican grilled cheese", "full breakfast/lunch"],
-    vibe: ["modern", "clean", "spacious", "laptop-friendly"],
+    food: ["eggs benedict", "grilled cheese", "breakfast & lunch"],
+    vibe: ["modern", "spacious", "laptop-friendly"],
     knownFor: "Quality espresso, matcha lattes",
     description: "Modern, clean, spacious. Good for working or catching up with friends.",
     photo: null
@@ -117,8 +117,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Western Nassau",
     phone: "516-627-1600",
-    lat: 40.7960,
-    lng: -73.7000,
+    lat: 40.794681,
+    lng: -73.698439,
     hours: {
       mon: "6:30 AM - 8:00 PM",
       tue: "6:30 AM - 8:00 PM",
@@ -129,8 +129,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["full bakery", "pastries", "breakfast", "smoothies", "draft lattes"],
-    vibe: ["country bakery", "local favorite"],
+    food: ["pastries", "breakfast", "smoothies"],
+    vibe: ["country bakery", "community hub"],
     knownFor: "Custom cakes, old-school bakery charm",
     description: "Country bakery feel, long-standing local favorite.",
     photo: null
@@ -143,8 +143,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Western Nassau",
     phone: null,
-    lat: 40.7220,
-    lng: -73.7040,
+    lat: 40.72907,
+    lng: -73.701108,
     hours: {
       mon: "7:00 AM - 8:00 PM",
       tue: "7:00 AM - 8:00 PM",
@@ -156,7 +156,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: ["pastries", "light bites"],
-    vibe: ["quiet", "unique lighting"],
+    vibe: ["quiet", "unique decor"],
     knownFor: "Coconut banana latte, salted caramel latte, fun oversized cups",
     description: "Quiet local cafe with unique lighting. No photos on walls (owner preference).",
     photo: null
@@ -169,8 +169,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Western Nassau",
     phone: null,
-    lat: 40.7075,
-    lng: -73.6760,
+    lat: 40.707315,
+    lng: -73.672633,
     hours: {
       mon: "9:00 AM - 5:00 PM",
       tue: "9:00 AM - 5:00 PM",
@@ -181,8 +181,8 @@ const coffeeShops = [
       sun: "10:00 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["waffles", "tres leches cake", "empanadas", "paninis"],
-    vibe: ["Latin family-owned", "peaceful"],
+    food: ["waffles", "cakes", "empanadas", "sandwiches"],
+    vibe: ["Latin family-owned", "quiet"],
     knownFor: "Colombian cold brew, dulce de leche frappuccino",
     description: "Latin family-owned, peaceful, with plants and books to browse.",
     photo: null
@@ -195,8 +195,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Western Nassau",
     phone: "516-216-1683",
-    lat: 40.7080,
-    lng: -73.6790,
+    lat: 40.706704,
+    lng: -73.669536,
     hours: {
       mon: "7:00 AM - 10:00 PM",
       tue: "7:00 AM - 10:00 PM",
@@ -207,8 +207,8 @@ const coffeeShops = [
       sun: "7:00 AM - 10:00 PM"
     },
     amenities: { wifi: true, bathroom: true, outlets: null, seating: "indoor+outdoor" },
-    food: ["Dubai chocolate croissants", "savory croissants", "crepes", "pastries"],
-    vibe: ["great decor", "heated outdoor tent", "open late"],
+    food: ["croissants", "crepes", "pastries"],
+    vibe: ["unique decor", "outdoor seating", "open late"],
     knownFor: "Canned latte presentation, late hours",
     description: "Great decor, heated outdoor tent, unique drink presentation (canned lattes).",
     photo: null
@@ -225,8 +225,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Central Nassau",
     phone: "516-248-2169",
-    lat: 40.7490,
-    lng: -73.6400,
+    lat: 40.73953,
+    lng: -73.639741,
     hours: {
       mon: "7:00 AM - 5:00 PM",
       tue: "7:00 AM - 5:00 PM",
@@ -237,8 +237,8 @@ const coffeeShops = [
       sun: "Closed"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["Korean snacks", "scallion bread", "bulgogi", "banana loaf", "fresh-cut fruit drinks"],
-    vibe: ["tiny", "cozy", "Korean-owned"],
+    food: ["Korean snacks", "scallion bread", "bulgogi", "banana bread", "juice"],
+    vibe: ["small", "cozy", "Korean-owned"],
     knownFor: "Chagaccino, strawberry matcha with fresh fruit, in-house roasting",
     description: "Tiny, cozy Korean-owned cafe that roasts their own beans.",
     photo: null
@@ -251,8 +251,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Central Nassau",
     phone: "516-280-2429",
-    lat: 40.7268,
-    lng: -73.6340,
+    lat: 40.724791,
+    lng: -73.63354,
     hours: {
       mon: "8:30 AM - 6:00 PM",
       tue: "8:30 AM - 6:00 PM",
@@ -263,8 +263,8 @@ const coffeeShops = [
       sun: "8:30 AM - 6:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["quesadillas", "French toast", "omelets", "full brunch menu"],
-    vibe: ["warm", "colorful", "Instagram-viral"],
+    food: ["quesadillas", "french toast", "omelets", "brunch"],
+    vibe: ["cozy", "unique decor", "trendy"],
     knownFor: "Brunch destination, London fog, espresso drinks",
     description: "Warm, colorful, unique decor with a huge local following (viral on Instagram).",
     photo: null
@@ -277,8 +277,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Central Nassau",
     phone: "516-271-9100",
-    lat: 40.7260,
-    lng: -73.6380,
+    lat: 40.725195,
+    lng: -73.635668,
     hours: {
       mon: "7:00 AM - 8:30 PM",
       tue: "7:00 AM - 8:30 PM",
@@ -289,8 +289,8 @@ const coffeeShops = [
       sun: "7:00 AM - 8:30 PM"
     },
     amenities: { wifi: true, bathroom: null, outlets: true, seating: "indoor" },
-    food: ["full menu", "pastries", "grab-and-go"],
-    vibe: ["open concept", "well-lit", "laptop-friendly"],
+    food: ["breakfast & lunch", "pastries"],
+    vibe: ["modern", "laptop-friendly"],
     knownFor: "Good workspace, house-roasted coffee",
     description: "Open concept, well-lit, popular laptop/work spot.",
     photo: null
@@ -303,8 +303,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Central Nassau",
     phone: "516-746-3809",
-    lat: 40.7495,
-    lng: -73.6390,
+    lat: 40.741227,
+    lng: -73.64052,
     hours: {
       mon: "8:00 AM - 3:00 PM",
       tue: "8:00 AM - 3:00 PM",
@@ -315,8 +315,8 @@ const coffeeShops = [
       sun: "Closed"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["Japanese egg sando", "grilled cheese with tomato bisque", "artisanal sandwiches"],
-    vibe: ["elevated", "curated", "relaxing"],
+    food: ["egg sandwiches", "grilled cheese", "sandwiches"],
+    vibe: ["trendy", "cozy"],
     knownFor: "Unique menu, beautiful interior, great lunch spot",
     description: "Elevated, curated, relaxing. Near the train station.",
     photo: null
@@ -329,8 +329,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Central Nassau",
     phone: "516-214-6143",
-    lat: 40.7560,
-    lng: -73.5900,
+    lat: 40.747335,
+    lng: -73.593154,
     hours: {
       mon: "8:00 AM - 11:00 PM",
       tue: "8:00 AM - 11:00 PM",
@@ -341,8 +341,8 @@ const coffeeShops = [
       sun: "8:00 AM - 11:00 PM"
     },
     amenities: { wifi: true, bathroom: true, outlets: true, seating: "indoor" },
-    food: ["Yemeni pastries", "Khaliat Alnahi (honeycomb)", "desserts"],
-    vibe: ["lively", "community hangout", "open late"],
+    food: ["pastries", "Khaliat Alnahi", "desserts"],
+    vibe: ["lively", "community hub", "open late"],
     knownFor: "Yemeni coffee imported from Yemen, roasted in-house, late hours",
     description: "Large, lively Yemeni coffee house. Social/community hangout.",
     photo: null
@@ -355,8 +355,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Central Nassau",
     phone: null,
-    lat: 40.7550,
-    lng: -73.5700,
+    lat: 40.74651,
+    lng: -73.596158,
     hours: {
       mon: "7:00 AM - 10:00 PM",
       tue: "7:00 AM - 10:00 PM",
@@ -367,8 +367,8 @@ const coffeeShops = [
       sun: "7:00 AM - 10:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["pastries", "seasonal treats"],
-    vibe: ["beautiful", "cozy", "outdoor seating"],
+    food: ["pastries"],
+    vibe: ["charming", "cozy", "outdoor seating"],
     knownFor: "Canned latte presentation, seasonal specials",
     description: "Beautiful, cozy, with outdoor seating area.",
     photo: null
@@ -381,8 +381,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Central Nassau",
     phone: "516-916-3884",
-    lat: 40.7140,
-    lng: -73.5590,
+    lat: 40.722673,
+    lng: -73.565306,
     hours: {
       mon: "Closed",
       tue: "8:00 AM - 7:00 PM",
@@ -393,8 +393,8 @@ const coffeeShops = [
       sun: "8:00 AM - 7:00 PM"
     },
     amenities: { wifi: true, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["avocado toast", "fried egg sandwiches", "ciabatta sandwiches"],
-    vibe: ["cozy", "welcoming", "laptop-friendly"],
+    food: ["avocado toast", "egg sandwiches", "sandwiches"],
+    vibe: ["cozy", "laptop-friendly"],
     knownFor: "Best mocha latte on LI (per regulars), great brunch",
     description: "Cozy, welcoming, great for working.",
     photo: null
@@ -407,8 +407,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "Central Nassau",
     phone: "516-788-0385",
-    lat: 40.6720,
-    lng: -73.6740,
+    lat: 40.675974,
+    lng: -73.667134,
     hours: {
       mon: "6:00 AM - 7:00 PM",
       tue: "6:00 AM - 7:00 PM",
@@ -419,8 +419,8 @@ const coffeeShops = [
       sun: "7:00 AM - 7:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["vegan spanakopita", "pastries"],
-    vibe: ["Greek/Mediterranean", "family-owned", "warm hospitality"],
+    food: ["vegan options", "pastries"],
+    vibe: ["Greek/Mediterranean", "family-owned", "cozy"],
     knownFor: "Freddo espresso (hard to find on LI), locally roasted beans",
     description: "Greek/Mediterranean family-owned, warm hospitality, real ceramic cups.",
     photo: null
@@ -437,8 +437,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: null,
-    lat: 40.7998,
-    lng: -73.6510,
+    lat: 40.800706,
+    lng: -73.649293,
     hours: {
       mon: "Closed",
       tue: "7:00 AM - 4:00 PM",
@@ -449,7 +449,7 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["pastries", "chocolate croissants"],
+    food: ["pastries", "croissants"],
     vibe: ["Brooklyn-inspired", "cozy"],
     knownFor: "Iced salted caramel latte, matcha vanilla rose latte",
     description: "Brooklyn-inspired, cozy, limited seating but popular.",
@@ -463,8 +463,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: "516-621-2522",
-    lat: 40.8000,
-    lng: -73.6485,
+    lat: 40.804072,
+    lng: -73.646846,
     hours: {
       mon: "Closed",
       tue: "8:00 AM - 5:00 PM",
@@ -475,8 +475,8 @@ const coffeeShops = [
       sun: "8:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["quiche", "pies", "cakes", "salad bar", "pasta"],
-    vibe: ["charming", "garden seating", "elevated"],
+    food: ["quiche", "pies", "cakes", "salads", "pasta"],
+    vibe: ["charming", "outdoor seating", "trendy"],
     knownFor: "Best quiche on LI, gorgeous patio",
     description: "Charming garden seating, bustling, elevated cafe.",
     photo: null
@@ -489,8 +489,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: "516-626-0510",
-    lat: 40.7870,
-    lng: -73.6475,
+    lat: 40.791491,
+    lng: -73.642389,
     hours: {
       mon: "9:00 AM - 5:00 PM",
       tue: "Closed",
@@ -501,8 +501,8 @@ const coffeeShops = [
       sun: "Closed"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["smoked salmon bagels", "acai bowls", "vegan/GF options", "fresh juices"],
-    vibe: ["hidden gem", "owner-operated"],
+    food: ["bagels", "acai bowls", "vegan options", "juice"],
+    vibe: ["hidden gem", "family-owned"],
     knownFor: "Off-menu items, incredible personal service, lobster salad",
     description: "Tiny hidden gem, owner-operated by 'Scotty Bagel'. Monday only — check ahead!",
     photo: null
@@ -515,8 +515,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: null,
-    lat: 40.8625,
-    lng: -73.6340,
+    lat: 40.864564,
+    lng: -73.63146,
     hours: {
       mon: "7:00 AM - 6:00 PM",
       tue: "7:00 AM - 6:00 PM",
@@ -527,8 +527,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["avocado toast", "grilled cheese avo pesto", "scones", "baked goods"],
-    vibe: ["bright", "relaxing"],
+    food: ["avocado toast", "grilled cheese", "scones", "pastries"],
+    vibe: ["bright", "cozy"],
     knownFor: "House-roasted beans, consistently excellent across all locations",
     description: "Bright, relaxing, warm staff. Local roaster with multiple LI locations.",
     photo: null
@@ -541,8 +541,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: null,
-    lat: 40.8710,
-    lng: -73.5320,
+    lat: 40.777247,
+    lng: -73.497157,
     hours: {
       mon: "7:00 AM - 6:00 PM",
       tue: "7:00 AM - 6:00 PM",
@@ -553,8 +553,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["avo pesto grilled cheese", "banana bread (nut free)", "cornbread"],
-    vibe: ["cute", "classic", "cozy seaside"],
+    food: ["grilled cheese", "banana bread", "cornbread"],
+    vibe: ["charming", "beachy"],
     knownFor: "Lavender latte (house-made syrup), olive oil cake",
     description: "Cute, classic, cozy seaside town cafe. Limited seating (worth the wait).",
     photo: null
@@ -567,8 +567,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: "516-671-1444",
-    lat: 40.8623,
-    lng: -73.6330,
+    lat: 40.861706,
+    lng: -73.622391,
     hours: {
       mon: null,
       tue: null,
@@ -579,8 +579,8 @@ const coffeeShops = [
       sun: null
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["gelato", "Italian pastries", "espresso"],
-    vibe: ["old-school Little Italy", "cash only"],
+    food: ["gelato", "pastries"],
+    vibe: ["Italian cafe", "cash only"],
     knownFor: "Authentic Italian espresso, boxing glove decor, cash only",
     description: "Old-school Little Italy feel. Cash only!",
     photo: null
@@ -593,8 +593,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: null,
-    lat: 40.8620,
-    lng: -73.6290,
+    lat: 40.872719,
+    lng: -73.622203,
     hours: {
       mon: "5:00 AM - 9:00 PM",
       tue: "5:00 AM - 9:00 PM",
@@ -606,7 +606,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: null },
     food: [],
-    vibe: ["drive-thru only", "fast"],
+    vibe: ["drive-thru", "grab-and-go"],
     knownFor: "Sugar-free options (diabetic friendly), fast drive-thru service",
     description: "Drive-thru only, two lanes, fast and friendly.",
     photo: null
@@ -619,8 +619,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: "516-675-1187",
-    lat: 40.8490,
-    lng: -73.6450,
+    lat: 40.849287,
+    lng: -73.645218,
     hours: {
       mon: "7:00 AM - 5:00 PM",
       tue: "7:00 AM - 5:00 PM",
@@ -631,8 +631,8 @@ const coffeeShops = [
       sun: "7:00 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["vegan options", "lettuce wraps", "biscuits"],
-    vibe: ["casual"],
+    food: ["vegan options", "wraps", "biscuits"],
+    vibe: ["cozy"],
     knownFor: "Daily vegan specials (ask the counter)",
     description: "Casual cafe with daily vegan specials.",
     photo: null
@@ -645,8 +645,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: "516-817-9421",
-    lat: 40.8480,
-    lng: -73.6440,
+    lat: 40.847491,
+    lng: -73.635954,
     hours: {
       mon: "10:00 AM - 9:30 PM",
       tue: "10:00 AM - 9:30 PM",
@@ -657,8 +657,8 @@ const coffeeShops = [
       sun: "10:00 AM - 9:30 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["Italian desserts", "Greek desserts", "Asian-inspired desserts", "gelato", "kebabs"],
-    vibe: ["warm", "artsy", "book-friendly"],
+    food: ["desserts", "gelato", "kebabs"],
+    vibe: ["cozy", "artsy", "laptop-friendly"],
     knownFor: "Pistachio tiramisu, multi-cultural dessert menu",
     description: "Warm, artsy, book-friendly. Great for reading.",
     photo: null
@@ -671,8 +671,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "North Shore Nassau",
     phone: "516-427-5333",
-    lat: 40.8630,
-    lng: -73.6350,
+    lat: 40.855741,
+    lng: -73.618156,
     hours: {
       mon: "7:00 AM - 7:00 PM",
       tue: "7:00 AM - 7:00 PM",
@@ -683,8 +683,8 @@ const coffeeShops = [
       sun: "7:00 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["croissants", "cheesecake", "eclairs", "semolina bread", "cappuccinos"],
-    vibe: ["legendary Italian bakery"],
+    food: ["croissants", "cakes", "eclairs", "semolina bread"],
+    vibe: ["Italian cafe"],
     knownFor: "Best Italian bakery on Long Island (per many locals)",
     description: "Legendary Italian bakery, can have long holiday lines.",
     photo: null
@@ -701,8 +701,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: "516-544-1665",
-    lat: 40.5884,
-    lng: -73.6579,
+    lat: 40.590557,
+    lng: -73.658355,
     hours: {
       mon: "6:00 AM - 4:00 PM",
       tue: "6:00 AM - 4:00 PM",
@@ -727,8 +727,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: "516-608-9333",
-    lat: 40.5890,
-    lng: -73.6620,
+    lat: 40.588086,
+    lng: -73.670429,
     hours: {
       mon: "8:00 AM - 11:00 PM",
       tue: "8:00 AM - 11:00 PM",
@@ -740,7 +740,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: ["pastries", "desserts"],
-    vibe: ["unique", "golf simulator", "open late"],
+    vibe: ["unique decor", "golf simulator", "open late"],
     knownFor: "Golf simulators you can rent, good evening hangout",
     description: "Coffee shop + golf simulator combo!",
     photo: null
@@ -753,8 +753,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: "516-262-3289",
-    lat: 40.6530,
-    lng: -73.5830,
+    lat: 40.646548,
+    lng: -73.575227,
     hours: {
       mon: "7:00 AM - 5:00 PM",
       tue: "7:00 AM - 6:30 PM",
@@ -765,8 +765,8 @@ const coffeeShops = [
       sun: "8:00 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: true, outlets: null, seating: "indoor" },
-    food: ["BEC on croissant", "cinnamon rolls (homemade)", "baked goods"],
-    vibe: ["cozy", "living-room feel", "kid-friendly"],
+    food: ["egg sandwiches", "cinnamon rolls", "pastries"],
+    vibe: ["cozy", "family-friendly"],
     knownFor: "Biscoff latte, sugar cookie latte, cozy 'no rush' atmosphere",
     description: "Cozy living-room feel, games for kids, books.",
     photo: null
@@ -779,8 +779,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: null,
-    lat: 40.6500,
-    lng: -73.5780,
+    lat: 40.645728,
+    lng: -73.582415,
     hours: {
       mon: "5:00 AM - 6:00 PM",
       tue: "5:00 AM - 6:00 PM",
@@ -792,7 +792,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: null },
     food: [],
-    vibe: ["drive-thru", "fast service"],
+    vibe: ["drive-thru", "grab-and-go"],
     knownFor: "Shakes, customizable drinks, friendly staff",
     description: "Drive-thru, fast service.",
     photo: null
@@ -805,8 +805,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: "516-208-7887",
-    lat: 40.6632,
-    lng: -73.5510,
+    lat: 40.668333,
+    lng: -73.554364,
     hours: {
       mon: "8:00 AM - 12:30 PM",
       tue: "7:00 AM - 4:00 PM",
@@ -818,7 +818,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: [],
-    vibe: ["comfy", "cozy"],
+    vibe: ["cozy"],
     knownFor: "Signature iced lattes, Friday evening hours",
     description: "Comfy, cozy, great atmosphere.",
     photo: null
@@ -831,8 +831,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: "631-304-6647",
-    lat: 40.6640,
-    lng: -73.5520,
+    lat: 40.691917,
+    lng: -73.561894,
     hours: {
       mon: "6:00 AM - 6:00 PM",
       tue: "6:00 AM - 6:00 PM",
@@ -843,8 +843,8 @@ const coffeeShops = [
       sun: "8:00 AM - 6:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["breakfast sandwiches", "lunch sandwiches", "croissants"],
-    vibe: ["crisp", "clean", "intentional decor"],
+    food: ["egg sandwiches", "sandwiches", "croissants"],
+    vibe: ["modern", "unique decor"],
     knownFor: "Cookie butter shaken espresso, tiramisu latte, matcha",
     description: "Crisp, clean, intentional decor, coffee bean scent, gentle music.",
     photo: null
@@ -857,8 +857,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: "516-517-2154",
-    lat: 40.6550,
-    lng: -73.5490,
+    lat: 40.65778,
+    lng: -73.547361,
     hours: {
       mon: "6:00 AM - 9:00 PM",
       tue: "6:00 AM - 9:00 PM",
@@ -869,8 +869,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: null },
-    food: ["seasonal donuts"],
-    vibe: ["drive-thru", "seasonal/themed", "TikTok famous"],
+    food: ["donuts"],
+    vibe: ["drive-thru", "trendy"],
     knownFor: "Pumpkin lattes served in real pumpkins, Instagram/TikTok aesthetic",
     description: "Drive-thru barn, heavily seasonal/themed (TikTok famous).",
     photo: null
@@ -883,8 +883,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: "516-344-5340",
-    lat: 40.6588,
-    lng: -73.6413,
+    lat: 40.657088,
+    lng: -73.645359,
     hours: {
       mon: "12:00 PM - 8:00 PM",
       tue: "10:00 AM - 8:00 PM",
@@ -895,8 +895,8 @@ const coffeeShops = [
       sun: "10:00 AM - 8:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["baked in-house daily", "biscoff cookies"],
-    vibe: ["pink-themed", "cute", "party-friendly"],
+    food: ["pastries", "cookies"],
+    vibe: ["unique decor", "charming", "party-friendly"],
     knownFor: "Oatmilk vanilla matcha latte, tea parties, Bridgerton vibes",
     description: "Pink-themed, cute, great for girls' events/parties.",
     photo: null
@@ -909,8 +909,8 @@ const coffeeShops = [
     region: "Nassau",
     subregion: "South Shore Nassau",
     phone: "516-442-1299",
-    lat: 40.6585,
-    lng: -73.6410,
+    lat: 40.654763,
+    lng: -73.645909,
     hours: {
       mon: "8:00 AM - 2:00 PM",
       tue: "8:00 AM - 2:00 PM",
@@ -921,8 +921,8 @@ const coffeeShops = [
       sun: "8:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["full brunch menu", "homemade chips", "cannoli cookies"],
-    vibe: ["elevated brunch", "outdoor area"],
+    food: ["brunch", "chips", "cookies"],
+    vibe: ["brunch spot", "outdoor seating"],
     knownFor: "Honey lavender latte, brunch spot",
     description: "Elevated brunch cafe with a nice outdoor area.",
     photo: null
@@ -939,8 +939,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-546-8070",
-    lat: 40.8685,
-    lng: -73.4265,
+    lat: 40.876319,
+    lng: -73.423304,
     hours: {
       mon: "7:00 AM - 6:00 PM",
       tue: "7:00 AM - 6:00 PM",
@@ -951,8 +951,8 @@ const coffeeShops = [
       sun: "8:00 AM - 7:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["baklava", "almond croissants", "pastries", "gelato"],
-    vibe: ["warm", "honeycomb decor", "intentional"],
+    food: ["baklava", "croissants", "pastries", "gelato"],
+    vibe: ["cozy", "unique decor"],
     knownFor: "Intentional specialty coffee, latte art, Turkish baklava",
     description: "Warm yellow honeycomb decor, sofas + easy chairs, real dishes (not disposable), next to Heckscher Park.",
     photo: null
@@ -965,8 +965,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-470-4697",
-    lat: 40.8690,
-    lng: -73.4250,
+    lat: 40.869432,
+    lng: -73.426131,
     hours: {
       mon: "7:00 AM - 4:00 PM",
       tue: "7:00 AM - 4:00 PM",
@@ -977,8 +977,8 @@ const coffeeShops = [
       sun: "7:00 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["full breakfast/lunch", "avocado toast", "baked goods"],
-    vibe: ["artsy", "homey", "vibey music"],
+    food: ["breakfast & lunch", "avocado toast", "pastries"],
+    vibe: ["artsy", "cozy", "trendy"],
     knownFor: "Exhaustive flavored latte list, great brunch, formerly 'Soul Brew'",
     description: "Artsy, homey, vibey music. Good for working or socializing.",
     photo: null
@@ -991,8 +991,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: null,
-    lat: 40.8682,
-    lng: -73.4257,
+    lat: 40.872697,
+    lng: -73.427549,
     hours: {
       mon: "7:00 AM - 6:00 PM",
       tue: "7:00 AM - 6:00 PM",
@@ -1003,8 +1003,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["famous egg sandwich", "pastries", "scones"],
-    vibe: ["bright", "clean"],
+    food: ["egg sandwiches", "pastries", "scones"],
+    vibe: ["bright", "modern"],
     knownFor: "House-roasted coffee, the egg sandwich",
     description: "Bright, clean, narrow but inviting. House-made syrups.",
     photo: null
@@ -1017,8 +1017,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: null,
-    lat: 40.8534,
-    lng: -73.4115,
+    lat: 40.845743,
+    lng: -73.411752,
     hours: {
       mon: "6:30 AM - 4:00 PM",
       tue: "6:30 AM - 4:00 PM",
@@ -1029,8 +1029,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: "plenty", seating: "indoor" },
-    food: ["vegan breakfast burritos", "whoopie pies", "GF macarons"],
-    vibe: ["eclectic", "vegan", "community events"],
+    food: ["breakfast burritos", "pies", "macarons"],
+    vibe: ["artsy", "vegan", "community hub"],
     knownFor: "Vegan coffee house, community events (open mic, run club, markets), in-house roasting",
     description: "Victorian living room meets eclectic art — weird and awesome. Vegan cafe. Lots of outlets.",
     photo: null
@@ -1043,8 +1043,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-470-3960",
-    lat: 40.8540,
-    lng: -73.4050,
+    lat: 40.832663,
+    lng: -73.390466,
     hours: {
       mon: "7:00 AM - 6:00 PM",
       tue: "7:00 AM - 6:00 PM",
@@ -1055,8 +1055,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: true, bathroom: null, outlets: "some", seating: "indoor" },
-    food: ["cookies", "seasonal pastries"],
-    vibe: ["cute", "fun", "grab-and-go"],
+    food: ["cookies", "pastries"],
+    vibe: ["charming", "lively", "grab-and-go"],
     knownFor: "Chagaccino, strawberry matcha, seasonal specials",
     description: "Cute, fun, music a bit loud. More grab-and-go than sit-and-work.",
     photo: null
@@ -1069,8 +1069,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: null,
-    lat: 40.8715,
-    lng: -73.4568,
+    lat: 40.870782,
+    lng: -73.458576,
     hours: {
       mon: "7:15 AM - 5:00 PM",
       tue: "7:15 AM - 5:00 PM",
@@ -1082,7 +1082,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: ["pastries", "light bites"],
-    vibe: ["small", "locally owned", "kid-friendly"],
+    vibe: ["small", "local", "family-friendly"],
     knownFor: "Cinnamon toast crunch latte, seasonal pumpkin/snowman cups",
     description: "Small, locally owned, kid-friendly, fresh-paint-new feel.",
     photo: null
@@ -1095,8 +1095,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-367-9500",
-    lat: 40.8720,
-    lng: -73.4580,
+    lat: 40.871404,
+    lng: -73.456856,
     hours: {
       mon: "7:30 AM - 4:00 PM",
       tue: "7:30 AM - 4:00 PM",
@@ -1107,8 +1107,8 @@ const coffeeShops = [
       sun: "7:30 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["pastries", "cookies", "chocolate danish", "caramel macchiatos"],
-    vibe: ["quaint", "New England charm", "dog-friendly garden"],
+    food: ["pastries", "cookies", "chocolate danish"],
+    vibe: ["charming", "dog-friendly"],
     knownFor: "Adorable aesthetic, great post-hike stop",
     description: "Quaint, New England charm, dog-friendly garden, indoor + outdoor seating.",
     photo: null
@@ -1121,8 +1121,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-659-2977",
-    lat: 40.8718,
-    lng: -73.4570,
+    lat: 40.870927,
+    lng: -73.458202,
     hours: {
       mon: "8:00 AM - 4:00 PM",
       tue: "8:00 AM - 4:00 PM",
@@ -1133,8 +1133,8 @@ const coffeeShops = [
       sun: "8:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["shrimp tacos", "quinoa bowls", "wraps", "ice cream", "baked goods"],
-    vibe: ["multi-concept"],
+    food: ["shrimp tacos", "quinoa bowls", "wraps", "gelato", "pastries"],
+    vibe: [],
     knownFor: "Multi-concept (bakery + ice cream + cafe + lunch), Nutella latte",
     description: "Multi-concept: bakery + ice cream + cafe + lunch.",
     photo: null
@@ -1147,8 +1147,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: null,
-    lat: 40.9009,
-    lng: -73.3434,
+    lat: 40.900053,
+    lng: -73.350724,
     hours: {
       mon: "7:00 AM - 6:00 PM",
       tue: "7:00 AM - 6:00 PM",
@@ -1160,7 +1160,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: ["egg sandwiches", "scones", "zucchini bread"],
-    vibe: ["cute", "local", "Main Street charm"],
+    vibe: ["charming", "local"],
     knownFor: "Consistent Southdown quality, apple crumb",
     description: "Cute, local, Main Street charm.",
     photo: null
@@ -1173,8 +1173,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: null,
-    lat: 40.8768,
-    lng: -73.3243,
+    lat: 40.865342,
+    lng: -73.321619,
     hours: {
       mon: "8:00 AM - 6:00 PM",
       tue: "8:00 AM - 6:00 PM",
@@ -1186,7 +1186,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: null },
     food: [],
-    vibe: ["Instagram-famous", "seasonal", "drive-thru"],
+    vibe: ["trendy", "drive-thru"],
     knownFor: "Pumpkin spice latte in a real pumpkin, holiday themed drinks",
     description: "Instagram-famous seasonal drinks, drive-thru concept.",
     photo: null
@@ -1199,8 +1199,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-587-7729",
-    lat: 40.6956,
-    lng: -73.3257,
+    lat: 40.696142,
+    lng: -73.323161,
     hours: {
       mon: "4:45 AM - 7:00 PM",
       tue: "4:45 AM - 7:00 PM",
@@ -1211,8 +1211,8 @@ const coffeeShops = [
       sun: "5:45 AM - 7:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["bagels", "pastries", "seasonal drinks"],
-    vibe: ["art gallery", "old school architecture", "cozy"],
+    food: ["bagels", "pastries"],
+    vibe: ["artsy", "historic", "cozy"],
     knownFor: "Cold brew display, opens insanely early (4:45am!), art gallery space",
     description: "Art gallery + coffee house, old school architecture, cozy but can feel cramped.",
     photo: null
@@ -1225,8 +1225,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-885-3722",
-    lat: 40.6960,
-    lng: -73.3270,
+    lat: 40.699812,
+    lng: -73.322271,
     hours: {
       mon: "7:00 AM - 5:00 PM",
       tue: "7:00 AM - 5:00 PM",
@@ -1237,8 +1237,8 @@ const coffeeShops = [
       sun: "7:00 AM - 12:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["all-day egg sandwich", "salads", "sandwiches", "magic cookie bars"],
-    vibe: ["art gallery", "dog-friendly"],
+    food: ["egg sandwiches", "salads", "sandwiches", "cookies"],
+    vibe: ["artsy", "dog-friendly"],
     knownFor: "Homemade mocha/caramel sauces, local art, all-day egg sandwich",
     description: "Art gallery meets coffee shop, dog-friendly.",
     photo: null
@@ -1251,8 +1251,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-539-8006",
-    lat: 40.7179,
-    lng: -73.3590,
+    lat: 40.71349,
+    lng: -73.337973,
     hours: {
       mon: "Closed",
       tue: "7:00 AM - 4:00 PM",
@@ -1263,7 +1263,7 @@ const coffeeShops = [
       sun: "9:00 AM - 2:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["pastries", "sandwiches", "Turkish coffee"],
+    food: ["pastries", "sandwiches"],
     vibe: ["roastery"],
     knownFor: "In-house roasting, great value espresso ($3.35 double espresso!)",
     description: "In-house roasting with great value espresso.",
@@ -1277,8 +1277,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-314-4073",
-    lat: 40.7326,
-    lng: -73.3215,
+    lat: 40.712752,
+    lng: -73.321406,
     hours: {
       mon: "5:00 AM - 4:00 PM",
       tue: "5:00 AM - 4:00 PM",
@@ -1289,8 +1289,8 @@ const coffeeShops = [
       sun: "6:00 AM - 3:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["avocado toast", "pastries", "breakfast items"],
-    vibe: ["friendly owner", "community"],
+    food: ["avocado toast", "pastries", "breakfast"],
+    vibe: ["family-owned", "community hub"],
     knownFor: "Vietnamese iced coffee, hazelnut brewed from bean, roasts on-site",
     description: "Friendly owner (Ryan) who knows everyone by name. Brewing visible in back.",
     photo: null
@@ -1303,8 +1303,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-400-6699",
-    lat: 40.7330,
-    lng: -73.3220,
+    lat: 40.723353,
+    lng: -73.322708,
     hours: {
       mon: "6:30 AM - 3:30 PM",
       tue: "6:30 AM - 3:30 PM",
@@ -1329,8 +1329,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-412-3750",
-    lat: 40.6868,
-    lng: -73.3735,
+    lat: 40.686641,
+    lng: -73.372979,
     hours: {
       mon: "9:00 AM - 6:00 PM",
       tue: "8:00 AM - 6:00 PM",
@@ -1341,8 +1341,8 @@ const coffeeShops = [
       sun: "10:00 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["gelato", "cannolis", "Italian pastries"],
-    vibe: ["Italian espresso bar"],
+    food: ["gelato", "cannolis", "pastries"],
+    vibe: ["Italian cafe"],
     knownFor: "Italian espresso bar, gelato catering for events",
     description: "Italian espresso bar with gelato catering for events.",
     photo: null
@@ -1355,8 +1355,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-412-5085",
-    lat: 40.6880,
-    lng: -73.3740,
+    lat: 40.689247,
+    lng: -73.375726,
     hours: {
       mon: "6:00 AM - 4:00 PM",
       tue: "6:00 AM - 4:00 PM",
@@ -1368,7 +1368,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: ["egg sandwiches", "muffins", "vegan options"],
-    vibe: ["Brazilian vibes", "cozy", "trendy", "kid-friendly"],
+    vibe: ["Brazilian vibes", "cozy", "trendy", "family-friendly"],
     knownFor: "Great iced coffee, chill atmosphere, live music vibes",
     description: "Brazilian vibes, cozy, trendy, books + toys for kids.",
     photo: null
@@ -1381,8 +1381,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Western Suffolk",
     phone: "631-328-1529",
-    lat: 40.7254,
-    lng: -73.2454,
+    lat: 40.721454,
+    lng: -73.24743,
     hours: {
       mon: "7:00 AM - 10:00 PM",
       tue: "7:00 AM - 10:00 PM",
@@ -1393,8 +1393,8 @@ const coffeeShops = [
       sun: "7:00 AM - 10:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["baked goods", "light fare"],
-    vibe: ["community hangout", "comfy sofas", "open late"],
+    food: ["pastries", "light bites"],
+    vibe: ["community hub", "cozy", "open late"],
     knownFor: "Fruity pebble matcha, strawberry cheesecake latte, late hours",
     description: "Community hangout — people off phones, studying or socializing. Comfy sofas.",
     photo: null
@@ -1411,8 +1411,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-446-4089",
-    lat: 40.7321,
-    lng: -73.1856,
+    lat: 40.730755,
+    lng: -73.193354,
     hours: {
       mon: "9:00 AM - 9:00 PM",
       tue: "6:00 AM - 9:00 PM",
@@ -1423,8 +1423,8 @@ const coffeeShops = [
       sun: "7:00 AM - 8:00 PM"
     },
     amenities: { wifi: true, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["quiche", "chocolate croissants", "tiramisu", "ciabatta sandwiches"],
-    vibe: ["rustic", "string lights", "Instagram-worthy"],
+    food: ["quiche", "croissants", "tiramisu", "sandwiches"],
+    vibe: ["rustic", "unique decor", "trendy"],
     knownFor: "Cinnamon bun foam lattes, Irish cream cold brew, Instagram-worthy decor",
     description: "Rustic dark wood, string lights, husband-and-wife owned.",
     photo: null
@@ -1437,8 +1437,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-256-6988",
-    lat: 40.7351,
-    lng: -73.0822,
+    lat: 40.756263,
+    lng: -73.108608,
     hours: {
       mon: "7:00 AM - 4:00 PM",
       tue: "7:00 AM - 4:00 PM",
@@ -1449,8 +1449,8 @@ const coffeeShops = [
       sun: "8:00 AM - 2:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["chorizo & fontina burrito", "avocado toasts", "breakfast items"],
-    vibe: ["warm", "no rush", "health-forward"],
+    food: ["breakfast burritos", "avocado toast", "breakfast"],
+    vibe: ["cozy", "wellness"],
     knownFor: "Shaken honey espresso, shroom latte, German tourists rave about it",
     description: "Warm, music + books in background, 7 tables, no rush.",
     photo: null
@@ -1463,8 +1463,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-319-5637",
-    lat: 40.7355,
-    lng: -73.0830,
+    lat: 40.729817,
+    lng: -73.093749,
     hours: {
       mon: "5:00 AM - 7:30 PM",
       tue: "5:00 AM - 7:30 PM",
@@ -1475,8 +1475,8 @@ const coffeeShops = [
       sun: "5:30 AM - 7:00 PM"
     },
     amenities: { wifi: null, bathroom: true, outlets: null, seating: "indoor" },
-    food: ["wraps", "smoothies", "hot chocolate", "breakfast sandwiches"],
-    vibe: ["classic community coffee house", "live music"],
+    food: ["wraps", "smoothies", "egg sandwiches"],
+    vibe: ["community hub", "live music"],
     knownFor: "Live music, cold brew production visible on-site, early hours",
     description: "Classic community coffee house.",
     photo: null
@@ -1489,8 +1489,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-567-5376",
-    lat: 40.7345,
-    lng: -73.0850,
+    lat: 40.733613,
+    lng: -73.087553,
     hours: {
       mon: "7:30 AM - 3:00 PM",
       tue: "7:30 AM - 3:00 PM",
@@ -1501,8 +1501,8 @@ const coffeeShops = [
       sun: "7:30 AM - 3:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["frittata", "pancakes", "Cobb salad", "espresso martinis"],
-    vibe: ["cute", "quaint", "brunch spot"],
+    food: ["frittata", "pancakes", "salads", "cocktails"],
+    vibe: ["charming", "brunch spot"],
     knownFor: "Gourmet brunch, themed drinks, mimosas",
     description: "Cute, quaint brunch spot.",
     photo: null
@@ -1515,8 +1515,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-238-1666",
-    lat: 40.7693,
-    lng: -73.1148,
+    lat: 40.757218,
+    lng: -73.1085,
     hours: {
       mon: "8:00 AM - 5:00 PM",
       tue: "8:00 AM - 5:00 PM",
@@ -1528,7 +1528,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: [],
-    vibe: ["industrial park", "serious coffee", "roastery"],
+    vibe: ["roastery"],
     knownFor: "In-house roasting, 4-shot large lattes, Bowbreaker roast, Lifeline espresso",
     description: "Hidden in an industrial park, roastery visible through glass. Serious coffee.",
     photo: null
@@ -1541,8 +1541,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-569-4900",
-    lat: 40.7654,
-    lng: -72.9998,
+    lat: 40.765682,
+    lng: -73.016369,
     hours: {
       mon: "6:00 AM - 6:00 PM",
       tue: "6:00 AM - 6:00 PM",
@@ -1553,8 +1553,8 @@ const coffeeShops = [
       sun: "6:00 AM - 6:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["fresh juices", "banana chocolate chip loaf", "salted chocolate cookie"],
-    vibe: ["warm", "welcoming", "laptop-friendly"],
+    food: ["juice", "banana bread", "cookies"],
+    vibe: ["cozy", "laptop-friendly"],
     knownFor: "Creme brulee iced latte, cottage core chai, expanding to new locations",
     description: "Warm, welcoming, good for remote work or reading.",
     photo: null
@@ -1567,8 +1567,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: null,
-    lat: 40.7660,
-    lng: -73.0005,
+    lat: 40.766034,
+    lng: -73.016873,
     hours: {
       mon: "7:00 AM - 6:00 PM",
       tue: "7:00 AM - 6:00 PM",
@@ -1579,8 +1579,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["chickpea salad sandwich", "dark chocolate sea salt cookie (GF)"],
-    vibe: ["bright", "spacious", "plant vibes"],
+    food: ["sandwiches", "cookies"],
+    vibe: ["bright", "spacious", "unique decor"],
     knownFor: "Great drip coffee, peaceful afternoon escape",
     description: "Big windows, plants, bright/spacious. Leather sofa + plant vibes.",
     photo: null
@@ -1593,8 +1593,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-654-7091",
-    lat: 40.7650,
-    lng: -72.9990,
+    lat: 40.765318,
+    lng: -73.013836,
     hours: {
       mon: "8:00 AM - 3:00 PM",
       tue: "8:00 AM - 3:00 PM",
@@ -1605,8 +1605,8 @@ const coffeeShops = [
       sun: "7:30 AM - 3:30 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["Splendid Benedict", "French toast", "scrambled eggs", "full brunch"],
-    vibe: ["bustling", "brunch spot"],
+    food: ["eggs benedict", "french toast", "scrambled eggs", "brunch"],
+    vibe: ["lively", "brunch spot"],
     knownFor: "Massive brunch menu, pink mimosas, always packed",
     description: "Popular brunch spot, bustling, counter + table seating.",
     photo: null
@@ -1619,8 +1619,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-803-0809",
-    lat: 40.7568,
-    lng: -72.9394,
+    lat: 40.757549,
+    lng: -72.939315,
     hours: {
       mon: "7:00 AM - 5:00 PM",
       tue: "7:00 AM - 5:00 PM",
@@ -1631,7 +1631,7 @@ const coffeeShops = [
       sun: "7:00 AM - 5:00 PM"
     },
     amenities: { wifi: true, bathroom: true, outlets: "plenty", seating: "indoor" },
-    food: ["pastries", "seasonal baked goods"],
+    food: ["pastries"],
     vibe: ["cozy", "laptop-friendly", "quiet"],
     knownFor: "Best remote work spot in Suffolk (fast WiFi, outlets, quiet), sweater weather chai",
     description: "Cozy, great for remote work. Background music at perfect volume. Window nook + couch.",
@@ -1645,8 +1645,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "Central/Eastern Suffolk",
     phone: "631-431-6825",
-    lat: 40.7565,
-    lng: -72.9390,
+    lat: 40.757992,
+    lng: -72.938732,
     hours: {
       mon: "8:00 AM - 5:00 PM",
       tue: "8:00 AM - 5:00 PM",
@@ -1658,7 +1658,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
     food: ["scones", "smoothies", "light bites"],
-    vibe: ["boutique", "wellness", "Bellport Village charm"],
+    vibe: ["upscale", "wellness", "charming"],
     knownFor: "Lavender lemonade tea, organic skincare products + coffee",
     description: "Coffee + boutique + wellness shop, outdoor seating, Bellport Village charm.",
     photo: null
@@ -1675,8 +1675,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "North Fork",
     phone: "631-318-0363",
-    lat: 41.1037,
-    lng: -72.3598,
+    lat: 41.102922,
+    lng: -72.358913,
     hours: {
       mon: "7:30 AM - 3:00 PM",
       tue: "Closed",
@@ -1687,8 +1687,8 @@ const coffeeShops = [
       sun: "7:30 AM - 3:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["Cubano sandwich", "avo toast", "croissants", "breakfast sandwiches"],
-    vibe: ["vintage records"],
+    food: ["sandwiches", "avocado toast", "croissants", "egg sandwiches"],
+    vibe: ["artsy"],
     knownFor: "Counter Culture coffee, La Marzocco espresso, vintage records",
     description: "Counter Culture coffee with vintage records.",
     photo: null
@@ -1701,8 +1701,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "North Fork",
     phone: "631-213-9353",
-    lat: 41.1040,
-    lng: -72.3590,
+    lat: 41.102362,
+    lng: -72.359831,
     hours: {
       mon: "7:00 AM - 5:00 PM",
       tue: "7:00 AM - 5:00 PM",
@@ -1713,8 +1713,8 @@ const coffeeShops = [
       sun: "8:30 AM - 10:30 AM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["gelato", "biscotti", "chocolate croissants", "pastries"],
-    vibe: ["waterfront views", "patio"],
+    food: ["gelato", "biscotti", "croissants", "pastries"],
+    vibe: ["waterfront views", "outdoor seating"],
     knownFor: "In-house roasted coffee, biscotti gifts, hot chocolate, 10+ years running",
     description: "Waterfront views, patio overlooking harbor/carousel, ice cream + coffee.",
     photo: null
@@ -1727,8 +1727,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "North Fork",
     phone: "631-333-2060",
-    lat: 41.1035,
-    lng: -72.3595,
+    lat: 41.102155,
+    lng: -72.361516,
     hours: {
       mon: "8:00 AM - 4:00 PM",
       tue: "8:00 AM - 4:00 PM",
@@ -1739,8 +1739,8 @@ const coffeeShops = [
       sun: "8:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["cookies", "blueberry turnovers", "pies", "European-style pastries"],
-    vibe: ["cute refurbished house", "smells like butter"],
+    food: ["cookies", "pastries", "pies"],
+    vibe: ["charming"],
     knownFor: "European-style baking (originally from Southampton since 1999)",
     description: "Cute refurbished house, smells like butter, tables inside + alley seating.",
     photo: null
@@ -1753,8 +1753,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "North Fork",
     phone: "631-876-5450",
-    lat: 41.0648,
-    lng: -72.4276,
+    lat: 40.966096,
+    lng: -72.564002,
     hours: {
       mon: "7:00 AM - 4:00 PM",
       tue: "7:00 AM - 4:00 PM",
@@ -1765,8 +1765,8 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["scratch-made muffins", "breakfast sandwiches", "baked goods"],
-    vibe: ["kid-friendly", "events space"],
+    food: ["muffins", "egg sandwiches", "pastries"],
+    vibe: ["family-friendly", "event space"],
     knownFor: "In-house roasting, strawberry matcha, best third-wave coffee on North Fork",
     description: "Upstairs rooms including kids' playroom, outdoor space for bands/events.",
     photo: null
@@ -1779,8 +1779,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "North Fork",
     phone: "631-765-8354",
-    lat: 41.0548,
-    lng: -72.4576,
+    lat: 41.046518,
+    lng: -72.461432,
     hours: {
       mon: "Closed",
       tue: "Closed",
@@ -1792,7 +1792,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: ["pastries", "light bites"],
-    vibe: ["futuristic/retro", "owner-operated"],
+    vibe: ["unique decor", "family-owned"],
     knownFor: "Unique design, amazing branding, creative energy",
     description: "Futuristic/retro ('The Jetsons'), fun sound effects in bathroom, owner-operated.",
     photo: null
@@ -1805,8 +1805,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "North Fork",
     phone: "631-298-8989",
-    lat: 41.0137,
-    lng: -72.5342,
+    lat: 40.992056,
+    lng: -72.534714,
     hours: {
       mon: "8:00 AM - 9:00 PM",
       tue: "8:00 AM - 4:00 PM",
@@ -1817,8 +1817,8 @@ const coffeeShops = [
       sun: "8:00 AM - 9:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["lobster roll", "chicken salad", "brunch", "espresso martinis"],
-    vibe: ["dog-friendly patio", "farm-to-table"],
+    food: ["lobster roll", "salads", "brunch", "cocktails"],
+    vibe: ["dog-friendly", "farm-to-table"],
     knownFor: "Homemade chai latte, self-serve coffee refills, farm-to-table vibe",
     description: "Dog-friendly patio, self-serve coffee bar, cozy indoor/outdoor.",
     photo: null
@@ -1835,8 +1835,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "South Fork / Hamptons",
     phone: "631-726-2633",
-    lat: 40.9192,
-    lng: -72.3458,
+    lat: 40.912779,
+    lng: -72.348484,
     hours: {
       mon: "5:15 AM - 5:00 PM",
       tue: "5:15 AM - 5:00 PM",
@@ -1847,7 +1847,7 @@ const coffeeShops = [
       sun: "5:15 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["full breakfast/lunch", "Mexican items", "sandwiches", "pastries"],
+    food: ["breakfast & lunch", "Mexican food", "sandwiches", "pastries"],
     vibe: ["early bird"],
     knownFor: "Multiple Hamptons locations, opens at 5:15am, strong local loyalty",
     description: "Opens at 5:15am with full breakfast/lunch and strong local loyalty.",
@@ -1861,8 +1861,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "South Fork / Hamptons",
     phone: "631-353-3088",
-    lat: 40.8840,
-    lng: -72.3897,
+    lat: 40.898958,
+    lng: -72.373446,
     hours: {
       mon: "6:00 AM - 5:00 PM",
       tue: "6:00 AM - 5:00 PM",
@@ -1873,8 +1873,8 @@ const coffeeShops = [
       sun: "6:00 AM - 5:00 PM"
     },
     amenities: { wifi: true, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["paninis", "muffins", "espresso drinks"],
-    vibe: ["friendly"],
+    food: ["sandwiches", "muffins"],
+    vibe: ["cozy"],
     knownFor: "Friendly baristas, WiFi, good grab-and-go",
     description: "Friendly baristas, WiFi, good grab-and-go.",
     photo: null
@@ -1887,8 +1887,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "South Fork / Hamptons",
     phone: "631-668-8206",
-    lat: 41.0359,
-    lng: -71.9546,
+    lat: 41.033991,
+    lng: -71.944957,
     hours: {
       mon: "7:00 AM - 4:00 PM",
       tue: "7:00 AM - 4:00 PM",
@@ -1899,7 +1899,7 @@ const coffeeShops = [
       sun: "7:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["bagels", "breakfast sandwiches", "baked goods"],
+    food: ["bagels", "egg sandwiches", "pastries"],
     vibe: ["grab-and-go"],
     knownFor: "Cinnamon roll latte",
     description: "Solid grab-and-go in Montauk.",
@@ -1913,8 +1913,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "South Fork / Hamptons",
     phone: "631-283-8900",
-    lat: 40.8843,
-    lng: -72.3890,
+    lat: 40.809453,
+    lng: -72.643482,
     hours: {
       mon: "6:30 AM - 5:30 PM",
       tue: "6:30 AM - 5:30 PM",
@@ -1926,7 +1926,7 @@ const coffeeShops = [
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
     food: ["scones", "breakfast burritos", "salads"],
-    vibe: ["neighborhood institution", "community hub"],
+    vibe: ["community hub"],
     knownFor: "Decades-old Hamptons staple, pricey but beloved by some",
     description: "Longtime neighborhood institution, community hub.",
     photo: null
@@ -1939,8 +1939,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "South Fork / Hamptons",
     phone: "631-771-9030",
-    lat: 40.9634,
-    lng: -72.1848,
+    lat: 40.962902,
+    lng: -72.186514,
     hours: {
       mon: "8:00 AM - 5:00 PM",
       tue: "8:00 AM - 5:00 PM",
@@ -1951,8 +1951,8 @@ const coffeeShops = [
       sun: "8:00 AM - 5:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor+outdoor" },
-    food: ["Roman-style pinsa pizza", "cookies", "almond flour chocolate cake"],
-    vibe: ["Italian cafe", "beautiful patio", "cocktails"],
+    food: ["pizza", "cookies", "cakes"],
+    vibe: ["Italian cafe", "outdoor seating", "cocktails"],
     knownFor: "Paloma cocktails, Italian pastries, great patio",
     description: "Italian cafe with beautiful patio, cocktails available.",
     photo: null
@@ -1965,8 +1965,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "South Fork / Hamptons",
     phone: "631-267-5555",
-    lat: 40.9734,
-    lng: -72.1448,
+    lat: 40.983294,
+    lng: -72.142146,
     hours: {
       mon: "6:00 AM - 4:00 PM",
       tue: "6:00 AM - 4:00 PM",
@@ -1977,8 +1977,8 @@ const coffeeShops = [
       sun: "6:00 AM - 4:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "outdoor" },
-    food: ["homemade biscuits", "donuts", "vegan/vegetarian options"],
-    vibe: ["organic", "grab-and-go"],
+    food: ["biscuits", "donuts", "vegan options"],
+    vibe: ["wellness", "grab-and-go"],
     knownFor: "100% organic, triple ristretto shots only, Stella iced drink",
     description: "Grab-and-go focused, minimal seating, organic coffee, picnic tables outside.",
     photo: null
@@ -1991,8 +1991,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "South Fork / Hamptons",
     phone: "631-256-7831",
-    lat: 40.9730,
-    lng: -72.1440,
+    lat: 40.97572,
+    lng: -72.140378,
     hours: {
       mon: "Closed",
       tue: "Closed",
@@ -2003,8 +2003,8 @@ const coffeeShops = [
       sun: "7:00 AM - 1:00 PM"
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: "indoor" },
-    food: ["carrot cake doughnut", "breakfast bars"],
-    vibe: ["small", "neighborhood favorite"],
+    food: ["donuts", "breakfast"],
+    vibe: ["small", "community hub"],
     knownFor: "Excellent beans, becoming a daily ritual for locals",
     description: "New, small, neighborhood favorite.",
     photo: null
@@ -2017,8 +2017,8 @@ const coffeeShops = [
     region: "Suffolk",
     subregion: "South Fork / Hamptons",
     phone: "631-268-5711",
-    lat: 41.0134,
-    lng: -72.1548,
+    lat: 41.032367,
+    lng: -72.171207,
     hours: {
       mon: "8:00 AM - 4:00 PM",
       tue: "Closed",
@@ -2029,8 +2029,8 @@ const coffeeShops = [
       sun: null
     },
     amenities: { wifi: null, bathroom: null, outlets: null, seating: null },
-    food: ["pastries from Pain d'Avignon"],
-    vibe: ["Brooklyn transplant feel", "general store"],
+    food: ["pastries"],
+    vibe: ["Brooklyn transplant feel"],
     knownFor: "Variety coffee, art books, local jewelry, no real seating (bench only)",
     description: "Brooklyn transplant feel (Fort Greene vibes), coffee + general store + vinyl/art books.",
     photo: null
