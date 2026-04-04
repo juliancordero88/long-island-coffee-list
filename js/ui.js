@@ -32,6 +32,12 @@ export function renderCards(shops, onShopClick) {
     const open = isOpenNow(shop);
     const todayHours = getTodayHours(shop);
     const badges = buildAmenityBadges(shop);
+    const typeBadge = shop.type === 'coffee-shop'
+      ? `<span class="type-badge type-badge--focused">☕ Coffee Shop</span>`
+      : shop.type === 'cafe'
+        ? `<span class="type-badge type-badge--plus">🍽️ Cafe</span>`
+        : '';
+    const tagChips = (shop.tags || []).slice(0, 3).map(t => `<span class="tag-chip">${t}</span>`).join('');
 
     return `
       <div class="shop-card" data-shop-id="${shop.id}">
@@ -42,6 +48,7 @@ export function renderCards(shops, onShopClick) {
           </div>
           ${shop._distance != null ? `<div class="card-distance"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 010-5 2.5 2.5 0 010 5z"/></svg> ${shop._distance.toFixed(1)} miles away</div>` : ''}
           <div class="card-town">${shop.town}, NY${todayHours ? ` · ${todayHours}` : ''}</div>
+          <div class="card-meta-row">${typeBadge}${tagChips ? `<span class="card-tags">${tagChips}</span>` : ''}</div>
           <div class="card-amenities">${badges}</div>
           ${shop.knownFor ? `<div class="card-known-for">${shop.knownFor}</div>` : ''}
         </div>
@@ -91,6 +98,10 @@ export function showModal(shop) {
     const label = shop.amenities.seating === 'indoor+outdoor' ? 'Indoor & outdoor seating' : shop.amenities.seating === 'outdoor' ? 'Outdoor seating' : 'Indoor seating';
     amenities.push(`<div class="modal-amenity">🪑 ${label}</div>`);
   }
+  if (shop.roastsOwn) amenities.push(`<div class="modal-amenity">🫘 Roasts own beans</div>`);
+  if (shop.drivethru) amenities.push(`<div class="modal-amenity">🚗 Drive-thru</div>`);
+  if (shop.servesAlcohol) amenities.push(`<div class="modal-amenity">🍺 Serves alcohol</div>`);
+  if (shop.parking) amenities.push(`<div class="modal-amenity">🅿️ ${shop.parking} parking</div>`);
 
   const foodTags = (shop.food || []).map(f => `<span class="food-tag">${f}</span>`).join('');
 
@@ -103,14 +114,30 @@ export function showModal(shop) {
       </div>`
     : '';
 
+  const modalTypeBadge = shop.type === 'coffee-shop'
+    ? `<span class="type-badge type-badge--focused">☕ Coffee Shop</span>`
+    : shop.type === 'cafe'
+      ? `<span class="type-badge type-badge--plus">🍽️ Cafe</span>`
+      : '';
+  const modalTagChips = (shop.tags || []).map(t => `<span class="tag-chip">${t}</span>`).join('');
+
   body.innerHTML = `
     ${photoHtml}
     <div class="modal-status-bar">
       <span class="card-status ${open ? 'open' : 'closed'}" style="font-size:12px">${open ? 'Open Now' : 'Closed'}</span>
+      ${modalTypeBadge}
     </div>
     <h2 class="modal-name">${shop.name}</h2>
     <p class="modal-town">${shop.address}${shop.subregion ? ` &middot; ${shop.subregion}` : ''}</p>
+    ${modalTagChips ? `<div class="modal-tags">${modalTagChips}</div>` : ''}
+    ${shop.rating ? `<div class="modal-rating">⭐ ${shop.rating}${shop.reviews ? ` <span class="rating-reviews">(${shop.reviews} reviews)</span>` : ''}${shop.priceRange ? ` · ${shop.priceRange}` : ''}</div>` : ''}
     ${shop.description ? `<p class="modal-description">${shop.description}</p>` : ''}
+
+    ${shop.coffeeNotes ? `
+    <div class="modal-section">
+      <h3 class="modal-section-title">Coffee Notes</h3>
+      <p class="known-for-text">${shop.coffeeNotes}</p>
+    </div>` : ''}
 
     ${shop.knownFor ? `
     <div class="modal-section">

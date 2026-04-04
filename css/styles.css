@@ -1283,3 +1283,80 @@ a {
   white-space: nowrap;
   border-width: 0;
 }
+
+/* ========== Type Badges ========== */
+.type-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.type-badge--focused {
+  background: #EFF6FF;
+  color: #1D4ED8;
+  border: 1px solid #BFDBFE;
+}
+
+.type-badge--plus {
+  background: #FFF7ED;
+  color: #C2410C;
+  border: 1px solid #FED7AA;
+}
+
+/* ========== Tag Chips ========== */
+.tag-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  background: #F1F5F9;
+  color: #475569;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 500;
+  border: 1px solid #E2E8F0;
+  white-space: nowrap;
+}
+
+/* Card meta row (type badge + tag chips) */
+.card-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin: 4px 0;
+}
+
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+/* Modal tags row */
+.modal-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 6px 0 10px;
+}
+
+.modal-tags .tag-chip {
+  font-size: 11px;
+  padding: 3px 10px;
+}
+
+/* ========== Tag Filter pills wrapping ========== */
+.pill-group--wrap {
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.filter-group--tags {
+  width: 100%;
+}

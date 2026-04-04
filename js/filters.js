@@ -16,10 +16,19 @@ export function filterShops(shops, filters) {
     // Open now filter
     if (filters.openNow && !isOpenNow(shop)) return false;
 
+    // Type filter
+    if (filters.type && filters.type !== 'all' && shop.type !== filters.type) return false;
+
+    // Tag filter (shop must have ALL selected tags)
+    if (filters.tags && filters.tags.length > 0) {
+      const shopTags = shop.tags || [];
+      if (!filters.tags.every(t => shopTags.includes(t))) return false;
+    }
+
     // Text search
     if (filters.search) {
       const q = filters.search.toLowerCase();
-      const searchable = `${shop.name} ${shop.town} ${shop.address} ${(shop.vibe || []).join(' ')} ${(shop.food || []).join(' ')}`.toLowerCase();
+      const searchable = `${shop.name} ${shop.town} ${shop.address} ${(shop.tags || []).join(' ')} ${(shop.food || []).join(' ')}`.toLowerCase();
       if (!searchable.includes(q)) return false;
     }
 

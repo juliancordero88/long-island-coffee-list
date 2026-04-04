@@ -17,7 +17,9 @@ const state = {
     bathroom: false,
     food: false,
     openNow: false,
-    search: ''
+    search: '',
+    type: 'all',
+    tags: []
   }
 };
 
@@ -136,6 +138,32 @@ function setupFilters() {
     openNowBtn.classList.toggle('active');
     state.filters.openNow = openNowBtn.classList.contains('active');
     applyFilters();
+  });
+
+  // Type filter pills
+  const typeBtns = document.querySelectorAll('#typeFilter .pill');
+  typeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      typeBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      state.filters.type = btn.dataset.value;
+      applyFilters();
+    });
+  });
+
+  // Tag toggle pills
+  const tagBtns = document.querySelectorAll('#tagFilter .pill');
+  tagBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('active');
+      const tag = btn.dataset.value;
+      if (btn.classList.contains('active')) {
+        if (!state.filters.tags.includes(tag)) state.filters.tags.push(tag);
+      } else {
+        state.filters.tags = state.filters.tags.filter(t => t !== tag);
+      }
+      applyFilters();
+    });
   });
 }
 
