@@ -26,9 +26,9 @@ const COFFEE_ICON = L.divIcon({
 
 export function initMap() {
   map = L.map('map', {
-    center: [40.79, -73.20],
+    center: [40.75, -73.55],
     zoom: 10,
-    maxBounds: [[40.4, -74.1], [41.3, -71.8]],
+    maxBounds: [[40.4, -74.3], [41.3, -71.8]],
     maxBoundsViscosity: 0.8,
     zoomControl: false
   });

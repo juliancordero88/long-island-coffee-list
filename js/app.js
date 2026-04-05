@@ -1,6 +1,6 @@
 // Main app — initialization and state management
 
-import coffeeShops from './data.js';
+import coffeeShops from './data.js?v=3';
 import { initMap, updateMarkers, panTo, fitAll, invalidateSize, showUserLocation } from './map.js';
 import { renderCards, showModal, hideModal } from './ui.js';
 import { filterShops } from './filters.js';
@@ -119,6 +119,9 @@ function setupFilters() {
       btn.classList.add('active');
       state.filters.region = btn.dataset.value;
       applyFilters();
+      // Auto-fit map to show filtered region
+      const filtered = filterShops(coffeeShops, state.filters);
+      if (filtered.length > 0) fitAll(filtered);
     });
   });
 
@@ -220,7 +223,7 @@ function setupNearMe() {
       state.nearMe = false;
       btn.classList.remove('active');
       applyFilters();
-      fitAll();
+      fitAll(filterShops(coffeeShops, state.filters));
       return;
     }
 
